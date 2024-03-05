@@ -40,7 +40,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Luciana Miller		|quero poder cadastrar rapidamente os IMCs dos meus pacientes durante consultas para acompanhar sua saúde ao longo do tempo.| garantindo uma melhor gestão do atendimento e fornecendo orientações de saúde mais precisas.| 
+|'Luciana Miller'		|quero poder cadastrar rapidamente os IMCs dos meus pacientes durante consultas para acompanhar sua saúde ao longo do tempo.| garantindo uma melhor gestão do atendimento e fornecendo orientações de saúde mais precisas.| 
 |Pedro Henrique 	|gostaria de poder sincronizar meu aplicativo com dispositivos de rastreamento de fitness para que meu IMC seja atualizado automaticamente com meus dados de atividade física.|facilitando meu acompanhamento de desempenho atlético e ajustes necessários em minha rotina de exercícios.|
 |Ana Lucia 		|desejo ter acesso a artigos e dicas sobre nutrição saudável diretamente no aplicativo para me educar sobre hábitos alimentares adequados.|aumentando meu conhecimento em saúde e nutrição para aplicação profissional futura.|
 |Márcio	Oliveira	|quero poder adicionar os perfis de cada membro da minha família no aplicativo para monitorar seus IMCs e garantir que todos estejam saudáveis.|promovendo hábitos saudáveis em casa e cuidando da saúde de toda a família.|
