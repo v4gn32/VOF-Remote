@@ -8,19 +8,20 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1- Sara Miler tem 22 anos e é uma profissional ativa que trabalha longas horas em um escritório. Ela tem dificuldade em manter uma rotina de exercícios regulares devido ao seu horário de trabalho agitado. Ela está interessada em um aplicativo que possa fornecer a ela informações rápidas sobre seu índice de massa corporal (IMC) e dicas breves sobre como manter um estilo de vida saudável, adaptado à sua agenda lotada.
+Necessidades: Acesso rápido a informações sobre seu IMC, notificações leves e lembretes para se manter ativa durante o dia, orientações simples sobre hábitos alimentares saudáveis e exercícios que possa realizar em intervalos curtos de tempo.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+2- Lucas Pereira tem 28 ano e é um entusiasta do fitness que pratica regularmente uma variedade de atividades físicas, como corrida, musculação e yoga. Ele monitora de perto sua saúde e desempenho físico, incluindo seu IMC. Lucas está em busca de um aplicativo que possa ajudá-lo a acompanhar seu IMC ao longo do tempo, fornecendo análises detalhadas e sugestões para otimizar sua composição corporal.
+Necessidades: Capacidade de inserir e rastrear dados detalhados sobre seu corpo e atividades físicas, gráficos e análises que mostram mudanças em seu IMC ao longo do tempo, orientações personalizadas para melhorar seu desempenho físico e saúde.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+3- Ana Julia tem 35 anos e é uma mãe ocupada com múltiplos compromissos familiares. Ela se preocupa com a saúde de sua família e está interessada em monitorar o IMC de seus filhos, bem como o dela própria. Ana está à procura de um aplicativo que possa ajudá-la a acompanhar o IMC de sua família de maneira fácil e intuitiva, oferecendo sugestões de estilo de vida saudável para toda a família.
+Necessidades: Funcionalidade para adicionar múltiplos perfis familiares e acompanhar seus IMCs, recursos educacionais sobre hábitos alimentares saudáveis e exercícios para crianças e adultos, lembretes para consultas médicas regulares e check-ups.
+
+4- Carlos Antonio tem 42 ano e é um novo pai preocupado com a saúde e o bem-estar de sua família. Ele está determinado a manter um estilo de vida saudável para ele, sua esposa e seu bebê. Carlos está interessado em um aplicativo que possa ajudá-lo a entender o IMC do seu filho em crescimento e fornecer orientações sobre nutrição infantil adequada.
+Necessidades: Recursos específicos para monitorar o crescimento e o desenvolvimento do bebê, informações sobre marcos de crescimento e IMC infantil, dicas para promover uma alimentação saudável desde cedo, orientações para atividades físicas seguras para crianças.
+
+5- Isabela Oliveira tem 18 anose é uma jovem que valoriza sua saúde e bem-estar. Ela procura maneiras de manter-se ativa e saudável durante seu dia a dia. Isabela está interessada em um aplicativo que possa ajudá-la a monitorar seu IMC e fornecer orientações adequadas para manter sua saúde física e mental em boa forma.
+Necessidades: Interface de usuário amigável e fácil de usar, recursos para acompanhar o IMC e outras métricas de saúde relacionadas à terceira idade, dicas de exercícios adaptados às capacidades físicas de idosos, informações sobre nutrição e prevenção de doenças comuns nesta fase da vida.
 
 ## Histórias de Usuários
 
