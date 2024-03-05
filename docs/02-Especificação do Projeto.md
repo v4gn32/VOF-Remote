@@ -82,7 +82,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
 |RF-011| Os usuários devem ter a opção de personalizar a interface do aplicativo, incluindo temas de cores, tamanho de fonte e preferências de exibição para melhor atender às suas necessidades visuais. | MÉDIA |
 |RF-012| O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| MEDIA |
-|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+|------|------------------------------------------------------------------------------------------------------------|----|
 |------|Estes requisitos funcionais garantirão que o aplicativo de Monitoramento de IMC ofereça uma experiência abrangente e personalizada aos usuários, ajudando-os a monitorar sua saúde e adotar hábitos saudáveis de forma eficaz e conveniente.|----|
 
 ### Requisitos não Funcionais
@@ -114,7 +114,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04| O aplicativo deve cumprir com as regulamentações locais e internacionais relacionadas à privacidade de dados, segurança da informação e outras normas aplicáveis à saúde digital. |
 |05| O aplicativo deve ser projetado para funcionar em dispositivos móveis com diferentes capacidades de hardware e em condições variadas de rede, considerando restrições de largura de banda, velocidade de processamento e consumo de energia. |
 |--|-------------------------------------------------------|
-Essas restrições fornecem diretrizes importantes para garantir que o projeto do aplicativo de Monitoramento de IMC seja executado de maneira eficiente e dentro dos limites estabelecidos, maximizando sua eficácia e sucesso no mercado.
+|--|Essas restrições fornecem diretrizes importantes para garantir que o projeto do aplicativo de Monitoramento de IMC seja executado de maneira eficiente e dentro dos limites estabelecidos, maximizando sua eficácia e sucesso no mercado.|
 
 ## Modelagem do Processo de Negócio 
 
