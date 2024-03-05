@@ -50,6 +50,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana Lucia 		    |gostaria de ter acesso a uma calculadora de calorias no aplicativo para ajudar a controlar minha ingestão diária de alimentos e manter um peso saudável.|facilitando o monitoramento da minha dieta e promovendo escolhas alimentares conscientes.|
 |Márcio Oliveira	|desejo receber notificações automáticas no aplicativo quando o IMC de um membro da minha família estiver fora da faixa saudável, para que possamos agir rapidamente.|garantindo que todos na família mantenham um estilo de vida saudável e evitando problemas de saúde futuros.|
 |Sofia Santos		  |quero poder compartilhar meus dados de IMC com meu médico diretamente do aplicativo para que eles possam acompanhar minha saúde de perto e fornecer orientações específicas.|garantindo uma comunicação eficiente com meu profissional de saúde e uma abordagem colaborativa para cuidar da minha saúde.|
+{: style="width: 500px;"}
 
 ## Requisitos
 
@@ -73,10 +74,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012| O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| MEDIA |
 |------|------------------------------------------------------------------------------------------------------------|----|
 |------|Estes requisitos funcionais garantirão que o aplicativo de Monitoramento de IMC ofereça uma experiência abrangente e personalizada aos usuários, ajudando-os a monitorar sua saúde e adotar hábitos saudáveis de forma eficaz e conveniente.|----|
-
+{: style="width: 500px;"}
 
 ### Requisitos não Funcionais
-{: style="width: 500px;"}
+
 |ID     | Descrição do Requisito  |Prioridade |
 |---------|-------------------------|----|
 | RNF-001 | O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. | ALTA | 
@@ -91,6 +92,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-010 | O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. | BAIXA |
 |-----|-----------------------------------------|----|
 |-----|Estes requisitos não funcionais são essenciais para garantir que o aplicativo de Monitoramento de IMC não apenas atenda às necessidades funcionais dos usuários, mas também ofereça uma experiência confiável, segura e escalável em todas as suas interações.|
+{: style="width: 500px;"}
 
 ## Restrições
 
@@ -105,6 +107,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |05| O aplicativo deve ser projetado para funcionar em dispositivos móveis com diferentes capacidades de hardware e em condições variadas de rede, considerando restrições de largura de banda, velocidade de processamento e consumo de energia. |
 |--|-------------------------------------------------------|
 |--|Essas restrições fornecem diretrizes importantes para garantir que o projeto do aplicativo de Monitoramento de IMC seja executado de maneira eficiente e dentro dos limites estabelecidos, maximizando sua eficácia e sucesso no mercado.|
+
+{: style="width: 500px;"}
 
 ## Modelagem do Processo de Negócio 
 
