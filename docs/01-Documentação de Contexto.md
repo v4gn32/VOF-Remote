@@ -1,7 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No contexto da crescente conscientização sobre saúde e bem-estar, o desenvolvimento de aplicativos voltados para o monitoramento e gerenciamento da saúde tem ganhado considerável importância. Nesse sentido, o projeto do aplicativo de Monitoramento de Índice de Massa Corporal (IMC) surge como uma solução moderna e acessível para indivíduos interessados em acompanhar seu estado físico de forma prática e eficaz.
 
+O Índice de Massa Corporal (IMC) é uma medida amplamente reconhecida para avaliar a proporção entre peso e altura de uma pessoa, proporcionando insights sobre seu estado nutricional e o risco associado a certas condições de saúde, como obesidade e desnutrição. Com base nesse conceito, o aplicativo proposto oferece uma plataforma intuitiva e personalizada para calcular e monitorar o IMC dos usuários, permitindo-lhes acompanhar sua jornada de saúde de maneira contínua e informada.
+
+Além da simples avaliação do IMC, o aplicativo se destaca por sua abordagem abrangente, fornecendo recursos adicionais como dicas de nutrição, sugestões de exercícios físicos e acompanhamento de metas pessoais. Ao integrar esses elementos, o aplicativo não apenas oferece uma ferramenta para avaliação de saúde, mas também se posiciona como um aliado na promoção de hábitos saudáveis e na melhoria da qualidade de vida dos usuários.
+
+Este documento apresentará em detalhes o escopo, os recursos e a arquitetura proposta para o aplicativo de Monitoramento de IMC, destacando sua relevância no cenário contemporâneo de saúde digital e seu potencial impacto na vida dos indivíduos.
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
