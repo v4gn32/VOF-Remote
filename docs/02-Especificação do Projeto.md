@@ -22,26 +22,17 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 1- Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
 
-2- Pedro Henrique, Atleta Amador:
-Idade: 28 anos
-Profissão: Engenheiro
+2- Pedro Henrique, Atleta Amador:<br>Idade: 28 anos<br>Profissão: Engenheiro<br>
 Descrição: Pedro é um entusiasta do fitness que pratica esportes regularmente. Ele deseja um aplicativo que não só rastreie seu IMC, mas também forneça insights sobre como melhorar sua composição corporal e desempenho atlético.
 
-3- Ana Lucia, Estudante Universitária:
-Idade: 20 anos
-Profissão: Estudante de Medicina
+3- Ana Lucia, Estudante Universitária:<br>Idade: 20 anos<br>Profissão: Estudante de Medicina<br>
 Descrição: Ana está estudando medicina e está interessada em aprender mais sobre saúde e nutrição. Ela procura um aplicativo que não apenas monitore seu IMC, mas também forneça informações educativas sobre alimentação saudável e estilo de vida.
 
-4- Márcio Oliveira, Pai de Família:
-Idade: 42 anos
-Profissão: Gerente de Vendas
+4- Márcio Oliveira, Pai de Família:<br>Idade: 42 anos<br>Profissão: Gerente de Vendas<br>
 Descrição: Márcio é um pai ocupado com responsabilidades familiares e profissionais. Ele deseja um aplicativo simples e intuitivo que o ajude a monitorar seu IMC e o de sua família, facilitando a manutenção de hábitos saudáveis para todos.
 
-5- Sofia Santos, Aposentada Ativa:
-Idade: 65 anos
-Profissão: Aposentada
+5- Sofia Santos, Aposentada Ativa:<br>Idade: 65 anos<br>Profissão: Aposentada<br>
 Descrição: Sofia é uma aposentada que gosta de manter um estilo de vida ativo. Ela busca um aplicativo que a ajude a monitorar seu IMC e a saúde geral à medida que envelhece, com dicas específicas para sua faixa etária.
-Histórias de Usuário:
 
 ## Histórias de Usuários
 
