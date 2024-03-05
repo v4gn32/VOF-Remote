@@ -76,9 +76,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 ### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
 {: style="width: 500px;"}
+|ID     | Descrição do Requisito  |Prioridade |
 |---------|-------------------------|----|
 | RNF-001 | O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. | ALTA | 
 | RNF-002 | Deve ser implementado um sistema robusto de segurança para proteger os dados pessoais dos usuários, incluindo criptografia de ponta a ponta, proteção contra acesso não autorizado e conformidade com regulamentações de privacidade, como o GDPR.  | MÉDIA |
