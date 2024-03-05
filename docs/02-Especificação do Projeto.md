@@ -44,7 +44,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Pedro Henrique 	|gostaria de poder sincronizar meu aplicativo com dispositivos de rastreamento de fitness para que meu IMC seja atualizado automaticamente com meus dados de atividade física.|facilitando meu acompanhamento de desempenho atlético e ajustes necessários em minha rotina de exercícios.|
 |Ana Lucia 		    |desejo ter acesso a artigos e dicas sobre nutrição saudável diretamente no aplicativo para me educar sobre hábitos alimentares adequados.|aumentando meu conhecimento em saúde e nutrição para aplicação profissional futura.|
 |Márcio	Oliveira	|quero poder adicionar os perfis de cada membro da minha família no aplicativo para monitorar seus IMCs e garantir que todos estejam saudáveis.|promovendo hábitos saudáveis em casa e cuidando da saúde de toda a família.|
-|Sofia Santos 		 |gostaria de receber lembretes personalizados no aplicativo para fazer check-ups de saúde regulares e monitorar meu IMC à medida que envelheço.|promovendo uma abordagem proativa para minha saúde e bem-estar na terceira idade.|
+|Sofia Santos 		|gostaria de receber lembretes personalizados no aplicativo para fazer check-ups de saúde regulares e monitorar meu IMC à medida que envelheço.|promovendo uma abordagem proativa para minha saúde e bem-estar na terceira idade.|
 |Luciana Miller 	|preciso de uma ferramenta de análise de dados no aplicativo que me permita identificar tendências de saúde em meus pacientes com base em seus IMCs ao longo do tempo.|facilitando a tomada de decisões clínicas e fornecendo um cuidado mais personalizado.|
 |Pedro Henrique 	|quero poder definir metas de IMC no aplicativo e receber recomendações personalizadas para alcançar esses objetivos de forma saudável.|motivando-me a manter hábitos saudáveis e atingir metas de composição corporal.|
 |Ana Lucia 		    |gostaria de ter acesso a uma calculadora de calorias no aplicativo para ajudar a controlar minha ingestão diária de alimentos e manter um peso saudável.|facilitando o monitoramento da minha dieta e promovendo escolhas alimentares conscientes.|
@@ -78,6 +78,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
+{: style="width: 500px;"}
 |---------|-------------------------|----|
 | RNF-001 | O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. | ALTA | 
 | RNF-002 | Deve ser implementado um sistema robusto de segurança para proteger os dados pessoais dos usuários, incluindo criptografia de ponta a ponta, proteção contra acesso não autorizado e conformidade com regulamentações de privacidade, como o GDPR.  | MÉDIA |
@@ -89,8 +90,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-008 | O aplicativo deve suportar diferentes idiomas, moedas e formatos de data para atender a usuários em todo o mundo, proporcionando uma experiência localizada e culturalmente relevante. | MÉDIA |
 | RNF-009 | O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. | MÉDIA |
 | RNF-010 | O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. | BAIXA |
-|---------|-----------------------------------------|----|
-|---------|Estes requisitos não funcionais são essenciais para garantir que o aplicativo de Monitoramento de IMC não apenas atenda às necessidades funcionais dos usuários, mas também ofereça uma experiência confiável, segura e escalável em todas as suas interações.|
+|-----|-----------------------------------------|----|
+|-----|Estes requisitos não funcionais são essenciais para garantir que o aplicativo de Monitoramento de IMC não apenas atenda às necessidades funcionais dos usuários, mas também ofereça uma experiência confiável, segura e escalável em todas as suas interações.|
 
 ## Restrições
 
