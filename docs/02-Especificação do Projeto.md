@@ -19,7 +19,7 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 ## Personas
 
-1- Luciana Miler, Profissional de Saúde Ocupada:
+1- Luciana Miller, Profissional de Saúde Ocupada:
 Idade: 35 anos
 Profissão: Médica
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
@@ -51,8 +51,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Luciana Miler		|quero poder cadastrar rapidamente os IMCs dos meus pacientes durante consultas para acompanhar sua saúde ao longo do tempo.| garantindo uma melhor gestão do atendimento e fornecendo orientações de saúde mais precisas.| 
-|Pedro Hentique 	|gostaria de poder sincronizar meu aplicativo com dispositivos de rastreamento de fitness para que meu IMC seja atualizado automaticamente com meus dados de atividade física.|facilitando meu acompanhamento de desempenho atlético e ajustes necessários em minha rotina de exercícios.|
+|Luciana Miller		|quero poder cadastrar rapidamente os IMCs dos meus pacientes durante consultas para acompanhar sua saúde ao longo do tempo.| garantindo uma melhor gestão do atendimento e fornecendo orientações de saúde mais precisas.| 
+|Pedro Henrique 	|gostaria de poder sincronizar meu aplicativo com dispositivos de rastreamento de fitness para que meu IMC seja atualizado automaticamente com meus dados de atividade física.|facilitando meu acompanhamento de desempenho atlético e ajustes necessários em minha rotina de exercícios.|
 |Ana Lucia 		|desejo ter acesso a artigos e dicas sobre nutrição saudável diretamente no aplicativo para me educar sobre hábitos alimentares adequados.|aumentando meu conhecimento em saúde e nutrição para aplicação profissional futura.|
 |Márcio	Oliveira	|quero poder adicionar os perfis de cada membro da minha família no aplicativo para monitorar seus IMCs e garantir que todos estejam saudáveis.|promovendo hábitos saudáveis em casa e cuidando da saúde de toda a família.|
 |Sofia Santos 		|gostaria de receber lembretes personalizados no aplicativo para fazer check-ups de saúde regulares e monitorar meu IMC à medida que envelheço.|promovendo uma abordagem proativa para minha saúde e bem-estar na terceira idade.|
@@ -83,7 +83,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| Os usuários devem ter a opção de personalizar a interface do aplicativo, incluindo temas de cores, tamanho de fonte e preferências de exibição para melhor atender às suas necessidades visuais. | MÉDIA |
 |RF-012| O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| MEDIA |
 |------|-----------------------------------------|----|
-|Estes requisitos funcionais garantirão que o aplicativo de Monitoramento de IMC ofereça uma experiência abrangente e personalizada aos usuários, ajudando-os a monitorar sua saúde e adotar hábitos saudáveis de forma eficaz e conveniente.|
+Estes requisitos funcionais garantirão que o aplicativo de Monitoramento de IMC ofereça uma experiência abrangente e personalizada aos usuários, ajudando-os a monitorar sua saúde e adotar hábitos saudáveis de forma eficaz e conveniente.
 
 ### Requisitos não Funcionais
 
@@ -100,7 +100,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-009| O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. | MÉDIA |
 |RNF-010| O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. | BAIXA |
 |------|-----------------------------------------|----|
-||Estes requisitos não funcionais são essenciais para garantir que o aplicativo de Monitoramento de IMC não apenas atenda às necessidades funcionais dos usuários, mas também ofereça uma experiência confiável, segura e escalável em todas as suas interações.||
+Estes requisitos não funcionais são essenciais para garantir que o aplicativo de Monitoramento de IMC não apenas atenda às necessidades funcionais dos usuários, mas também ofereça uma experiência confiável, segura e escalável em todas as suas interações.
 
 ## Restrições
 
