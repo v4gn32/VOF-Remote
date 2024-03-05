@@ -19,9 +19,7 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 ## Personas
 
-1- Luciana Miller, Profissional de Saúde Ocupada:;
-Idade: 35 anos
-Profissão: Médica
+1- Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
 
 2- Pedro Henrique, Atleta Amador:
