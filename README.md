@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Peso Perfil - Aplicativo de Monitoramento de Índice de Massa Corporal
 
-`CURSO`
+`ADS`
 
-`DISCIPLINA`
+`Projeto`
 
-`SEMESTRE`
+`Eixo 3`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto "Peso Perfil" se propõe a desenvolver um aplicativo móvel simples e intuitivo, utilizando React Native, que possibilitará aos usuários calcular seu Índice de Massa Corporal (IMC) e acessar informações detalhadas sobre sua saúde e bem-estar. Através de uma interface clara e amigável, os usuários poderão inserir seu peso e altura, e o aplicativo fornecerá o cálculo do IMC juntamente com uma interpretação que categoriza o resultado em diferentes faixas, desde abaixo do peso até obesidade. Além disso, o aplicativo oferecerá orientações e alertas de saúde personalizados, com base na categoria de IMC, inspirando os usuários a manter ou buscar um estilo de vida saudável.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Adriel Agnes Costa Bosco
+* Evandro Kumasaka
+* Juscelino Junior Antunes Silva
+* Lucas Melo de Carvalho
+* Lucas Oliveira Gonçalves
+* Vagner de Oliveira Florencio
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cristiano de Macêdo Neto
 
 ## Instruções de utilização
 
