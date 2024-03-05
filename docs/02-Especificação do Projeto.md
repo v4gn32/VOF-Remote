@@ -8,20 +8,31 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-1- Sara Miler tem 22 anos e é uma profissional ativa que trabalha longas horas em um escritório. Ela tem dificuldade em manter uma rotina de exercícios regulares devido ao seu horário de trabalho agitado. Ela está interessada em um aplicativo que possa fornecer a ela informações rápidas sobre seu índice de massa corporal (IMC) e dicas breves sobre como manter um estilo de vida saudável, adaptado à sua agenda lotada.
-Necessidades: Acesso rápido a informações sobre seu IMC, notificações leves e lembretes para se manter ativa durante o dia, orientações simples sobre hábitos alimentares saudáveis e exercícios que possa realizar em intervalos curtos de tempo.
+1- Luciana Miler, Profissional de Saúde Ocupada:
+Idade: 35 anos
+Profissão: Médica
+Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
 
-2- Lucas Pereira tem 28 ano e é um entusiasta do fitness que pratica regularmente uma variedade de atividades físicas, como corrida, musculação e yoga. Ele monitora de perto sua saúde e desempenho físico, incluindo seu IMC. Lucas está em busca de um aplicativo que possa ajudá-lo a acompanhar seu IMC ao longo do tempo, fornecendo análises detalhadas e sugestões para otimizar sua composição corporal.
-Necessidades: Capacidade de inserir e rastrear dados detalhados sobre seu corpo e atividades físicas, gráficos e análises que mostram mudanças em seu IMC ao longo do tempo, orientações personalizadas para melhorar seu desempenho físico e saúde.
+2- Pedro Henrique, Atleta Amador:
+Idade: 28 anos
+Profissão: Engenheiro
+Descrição: Pedro é um entusiasta do fitness que pratica esportes regularmente. Ele deseja um aplicativo que não só rastreie seu IMC, mas também forneça insights sobre como melhorar sua composição corporal e desempenho atlético.
 
-3- Ana Julia tem 35 anos e é uma mãe ocupada com múltiplos compromissos familiares. Ela se preocupa com a saúde de sua família e está interessada em monitorar o IMC de seus filhos, bem como o dela própria. Ana está à procura de um aplicativo que possa ajudá-la a acompanhar o IMC de sua família de maneira fácil e intuitiva, oferecendo sugestões de estilo de vida saudável para toda a família.
-Necessidades: Funcionalidade para adicionar múltiplos perfis familiares e acompanhar seus IMCs, recursos educacionais sobre hábitos alimentares saudáveis e exercícios para crianças e adultos, lembretes para consultas médicas regulares e check-ups.
+3- Ana Lucia, Estudante Universitária:
+Idade: 20 anos
+Profissão: Estudante de Medicina
+Descrição: Ana está estudando medicina e está interessada em aprender mais sobre saúde e nutrição. Ela procura um aplicativo que não apenas monitore seu IMC, mas também forneça informações educativas sobre alimentação saudável e estilo de vida.
 
-4- Carlos Antonio tem 42 ano e é um novo pai preocupado com a saúde e o bem-estar de sua família. Ele está determinado a manter um estilo de vida saudável para ele, sua esposa e seu bebê. Carlos está interessado em um aplicativo que possa ajudá-lo a entender o IMC do seu filho em crescimento e fornecer orientações sobre nutrição infantil adequada.
-Necessidades: Recursos específicos para monitorar o crescimento e o desenvolvimento do bebê, informações sobre marcos de crescimento e IMC infantil, dicas para promover uma alimentação saudável desde cedo, orientações para atividades físicas seguras para crianças.
+4- Márcio Oliveira, Pai de Família:
+Idade: 42 anos
+Profissão: Gerente de Vendas
+Descrição: Márcio é um pai ocupado com responsabilidades familiares e profissionais. Ele deseja um aplicativo simples e intuitivo que o ajude a monitorar seu IMC e o de sua família, facilitando a manutenção de hábitos saudáveis para todos.
 
-5- Isabela Oliveira tem 18 anose é uma jovem que valoriza sua saúde e bem-estar. Ela procura maneiras de manter-se ativa e saudável durante seu dia a dia. Isabela está interessada em um aplicativo que possa ajudá-la a monitorar seu IMC e fornecer orientações adequadas para manter sua saúde física e mental em boa forma.
-Necessidades: Interface de usuário amigável e fácil de usar, recursos para acompanhar o IMC e outras métricas de saúde relacionadas à terceira idade, dicas de exercícios adaptados às capacidades físicas de idosos, informações sobre nutrição e prevenção de doenças comuns nesta fase da vida.
+5- Sofia Santos, Aposentada Ativa:
+Idade: 65 anos
+Profissão: Aposentada
+Descrição: Sofia é uma aposentada que gosta de manter um estilo de vida ativo. Ela busca um aplicativo que a ajude a monitorar seu IMC e a saúde geral à medida que envelhece, com dicas específicas para sua faixa etária.
+Histórias de Usuário:
 
 ## Histórias de Usuários
 
@@ -30,6 +41,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Luciana Miler		|quero poder cadastrar rapidamente os IMCs dos meus pacientes durante consultas para acompanhar sua saúde ao longo do tempo.| garantindo uma melhor gestão do atendimento e fornecendo orientações de saúde mais precisas.| 
+|Pedro Hentique 	|gostaria de poder sincronizar meu aplicativo com dispositivos de rastreamento de fitness para que meu IMC seja atualizado automaticamente com meus dados de atividade física.|facilitando meu acompanhamento de desempenho atlético e ajustes necessários em minha rotina de exercícios.|
+|Ana Lucia 		|desejo ter acesso a artigos e dicas sobre nutrição saudável diretamente no aplicativo para me educar sobre hábitos alimentares adequados.|aumentando meu conhecimento em saúde e nutrição para aplicação profissional futura.|
+|Márcio	Oliveira	|quero poder adicionar os perfis de cada membro da minha família no aplicativo para monitorar seus IMCs e garantir que todos estejam saudáveis.|promovendo hábitos saudáveis em casa e cuidando da saúde de toda a família.|
+|Sofia Santos 		|gostaria de receber lembretes personalizados no aplicativo para fazer check-ups de saúde regulares e monitorar meu IMC à medida que envelheço.|promovendo uma abordagem proativa para minha saúde e bem-estar na terceira idade.|
+|Luciana Miller 	|preciso de uma ferramenta de análise de dados no aplicativo que me permita identificar tendências de saúde em meus pacientes com base em seus IMCs ao longo do tempo.|facilitando a tomada de decisões clínicas e fornecendo um cuidado mais personalizado.|
+|Pedro Henrique 	|quero poder definir metas de IMC no aplicativo e receber recomendações personalizadas para alcançar esses objetivos de forma saudável.|motivando-me a manter hábitos saudáveis e atingir metas de composição corporal.|
+|Ana Lucia 		|gostaria de ter acesso a uma calculadora de calorias no aplicativo para ajudar a controlar minha ingestão diária de alimentos e manter um peso saudável.|facilitando o monitoramento da minha dieta e promovendo escolhas alimentares conscientes.|
+|Márcio Oliveira	|desejo receber notificações automáticas no aplicativo quando o IMC de um membro da minha família estiver fora da faixa saudável, para que possamos agir rapidamente.|garantindo que todos na família mantenham um estilo de vida saudável e evitando problemas de saúde futuros.|
+|Sofia Santos		|quero poder compartilhar meus dados de IMC com meu médico diretamente do aplicativo para que eles possam acompanhar minha saúde de perto e fornecer orientações específicas.|garantindo uma comunicação eficiente com meu profissional de saúde e uma abordagem colaborativa para cuidar da minha saúde.|
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
