@@ -82,23 +82,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
 |RF-011| Os usuários devem ter a opção de personalizar a interface do aplicativo, incluindo temas de cores, tamanho de fonte e preferências de exibição para melhor atender às suas necessidades visuais. | MÉDIA |
 |RF-012| O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| MEDIA |
-|------|-----------------------------------------|----|
+|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
 |------|Estes requisitos funcionais garantirão que o aplicativo de Monitoramento de IMC ofereça uma experiência abrangente e personalizada aos usuários, ajudando-os a monitorar sua saúde e adotar hábitos saudáveis de forma eficaz e conveniente.|----|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. | ALTA | 
-|RNF-002| Deve ser implementado um sistema robusto de segurança para proteger os dados pessoais dos usuários, incluindo criptografia de ponta a ponta, proteção contra acesso não autorizado e conformidade com regulamentações de privacidade, como o GDPR.  | MÉDIA |
-|RNF-003| O aplicativo deve estar disponível continuamente para os usuários, com tempo de inatividade mínimo para manutenção e atualizações planejadas. | MÉDIA|
-|RNF-004| O aplicativo deve ser compatível com uma ampla variedade de dispositivos móveis, incluindo smartphones e tablets, e com diferentes sistemas operacionais, como iOS e Android. | MÉDIA |
-|RNF-005| A interface do usuário deve ser intuitiva e fácil de usar, seguindo as diretrizes de design de usabilidade e acessibilidade para garantir que pessoas com deficiências físicas ou cognitivas também possam utilizar o aplicativo com facilidade. | MÉDIA |
-|RNF-006| O aplicativo deve ser capaz de lidar com falhas de forma resiliente, oferecendo uma experiência contínua aos usuários, mesmo em situações de instabilidade na rede ou problemas de hardware. | BAIXA |
-|RNF-007| O sistema deve ser projetado para escalar facilmente para lidar com um aumento no número de usuários e volume de dados, garantindo que o desempenho não seja comprometido à medida que a base de usuários cresce. | BAIXA |
-|RNF-008| O aplicativo deve suportar diferentes idiomas, moedas e formatos de data para atender a usuários em todo o mundo, proporcionando uma experiência localizada e culturalmente relevante. | MÉDIA |
-|RNF-009| O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. | MÉDIA |
-|RNF-010| O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. | BAIXA |
+|RNF-001* | O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. | ALTA | 
+|RNF-002* | Deve ser implementado um sistema robusto de segurança para proteger os dados pessoais dos usuários, incluindo criptografia de ponta a ponta, proteção contra acesso não autorizado e conformidade com regulamentações de privacidade, como o GDPR.  | MÉDIA |
+|RNF-003* | O aplicativo deve estar disponível continuamente para os usuários, com tempo de inatividade mínimo para manutenção e atualizações planejadas. | MÉDIA|
+|RNF-004* | O aplicativo deve ser compatível com uma ampla variedade de dispositivos móveis, incluindo smartphones e tablets, e com diferentes sistemas operacionais, como iOS e Android. | MÉDIA |
+|RNF-005* | A interface do usuário deve ser intuitiva e fácil de usar, seguindo as diretrizes de design de usabilidade e acessibilidade para garantir que pessoas com deficiências físicas ou cognitivas também possam utilizar o aplicativo com facilidade. | MÉDIA |
+|RNF-006* | O aplicativo deve ser capaz de lidar com falhas de forma resiliente, oferecendo uma experiência contínua aos usuários, mesmo em situações de instabilidade na rede ou problemas de hardware. | BAIXA |
+|RNF-007* | O sistema deve ser projetado para escalar facilmente para lidar com um aumento no número de usuários e volume de dados, garantindo que o desempenho não seja comprometido à medida que a base de usuários cresce. | BAIXA |
+|RNF-008* | O aplicativo deve suportar diferentes idiomas, moedas e formatos de data para atender a usuários em todo o mundo, proporcionando uma experiência localizada e culturalmente relevante. | MÉDIA |
+|RNF-009* | O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. | MÉDIA |
+|RNF-010* | O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. | BAIXA |
 |------|-----------------------------------------|----|
 |------|Estes requisitos não funcionais são essenciais para garantir que o aplicativo de Monitoramento de IMC não apenas atenda às necessidades funcionais dos usuários, mas também ofereça uma experiência confiável, segura e escalável em todas as suas interações.|
 
