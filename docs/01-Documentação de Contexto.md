@@ -38,15 +38,15 @@ Ao alcançar esses objetivos, o aplicativo de Monitoramento de IMC pretende se t
 
 O desenvolvimento do aplicativo de Monitoramento de Índice de Massa Corporal (IMC) é fundamentado em diversas razões que destacam sua relevância e necessidade no contexto atual da saúde e bem-estar:
 
-1- **Prevalência da preocupação com a saúde:** Em um cenário onde a preocupação com a saúde e o bem-estar é crescente, existe uma demanda por ferramentas acessíveis e práticas que auxiliem os indivíduos a monitorarem e melhorarem sua condição física.
+1. **Prevalência da preocupação com a saúde:** Em um cenário onde a preocupação com a saúde e o bem-estar é crescente, existe uma demanda por ferramentas acessíveis e práticas que auxiliem os indivíduos a monitorarem e melhorarem sua condição física.
 
-2- **Importância do IMC na saúde:** O Índice de Massa Corporal (IMC) é uma medida reconhecida internacionalmente para avaliar o estado nutricional e o risco de certas doenças, como obesidade e desnutrição. Portanto, ter acesso fácil e regular ao IMC pode ser crucial para a prevenção e o gerenciamento de condições de saúde.
+2. **Importância do IMC na saúde:** O Índice de Massa Corporal (IMC) é uma medida reconhecida internacionalmente para avaliar o estado nutricional e o risco de certas doenças, como obesidade e desnutrição. Portanto, ter acesso fácil e regular ao IMC pode ser crucial para a prevenção e o gerenciamento de condições de saúde.
 
-3- **Necessidade de educação e orientação:** Muitas pessoas têm dificuldade em interpretar o significado do IMC e em adotar medidas adequadas para melhorar sua saúde. Um aplicativo que ofereça informações claras e orientações personalizadas pode desempenhar um papel crucial na educação e conscientização dos usuários sobre sua saúde e hábitos de vida.
+3. **Necessidade de educação e orientação:** Muitas pessoas têm dificuldade em interpretar o significado do IMC e em adotar medidas adequadas para melhorar sua saúde. Um aplicativo que ofereça informações claras e orientações personalizadas pode desempenhar um papel crucial na educação e conscientização dos usuários sobre sua saúde e hábitos de vida.
 
-4- **Facilidade de acesso a tecnologia móvel:** Com o aumento da penetração de smartphones e tablets, a maioria das pessoas tem acesso a dispositivos móveis. Desenvolver um aplicativo que tire proveito dessa tecnologia pode garantir que o monitoramento de saúde seja acessível a uma ampla gama de usuários.
+4. **Facilidade de acesso a tecnologia móvel:** Com o aumento da penetração de smartphones e tablets, a maioria das pessoas tem acesso a dispositivos móveis. Desenvolver um aplicativo que tire proveito dessa tecnologia pode garantir que o monitoramento de saúde seja acessível a uma ampla gama de usuários.
 
-5- **Promoção de hábitos saudáveis:** Ao integrar recursos como dicas de nutrição, sugestões de exercícios físicos e acompanhamento de metas pessoais, o aplicativo não apenas fornece informações sobre o IMC, mas também promove um estilo de vida saudável e incentiva os usuários a adotarem hábitos positivos para sua saúde.
+5. **Promoção de hábitos saudáveis:** Ao integrar recursos como dicas de nutrição, sugestões de exercícios físicos e acompanhamento de metas pessoais, o aplicativo não apenas fornece informações sobre o IMC, mas também promove um estilo de vida saudável e incentiva os usuários a adotarem hábitos positivos para sua saúde.
 
 Em resumo, o projeto do aplicativo de Monitoramento de IMC visa preencher uma lacuna no mercado de saúde digital, fornecendo uma solução abrangente e acessível para o monitoramento do IMC e a promoção de hábitos saudáveis. Ao fazê-lo, pretende-se contribuir significativamente para o bem-estar e a qualidade de vida dos usuários, capacitando-os a assumir um papel ativo em sua saúde e felicidade.
 
@@ -54,14 +54,14 @@ Em resumo, o projeto do aplicativo de Monitoramento de IMC visa preencher uma la
 
 O aplicativo de Monitoramento de Índice de Massa Corporal (IMC) é destinado a uma ampla gama de usuários interessados em monitorar sua saúde e adotar hábitos saudáveis. O público-alvo inclui:
 
-1- **Indivíduos preocupados com a saúde:** Pessoas que estão conscientes da importância de manter uma boa saúde e estão interessadas em monitorar seu IMC e adotar medidas para melhorar seu bem-estar físico.
+1. **Indivíduos preocupados com a saúde:** Pessoas que estão conscientes da importância de manter uma boa saúde e estão interessadas em monitorar seu IMC e adotar medidas para melhorar seu bem-estar físico.
 
-2- **Pessoas que desejam perder peso ou ganhar massa muscular:** Indivíduos que estão em um processo de perda de peso ou ganho de massa muscular e desejam acompanhar seu progresso de forma eficaz e motivadora.
+2. **Pessoas que desejam perder peso ou ganhar massa muscular:** Indivíduos que estão em um processo de perda de peso ou ganho de massa muscular e desejam acompanhar seu progresso de forma eficaz e motivadora.
 
-3- **Atletas e entusiastas de fitness:** Atletas profissionais, entusiastas de fitness e praticantes de atividades físicas regulares que desejam monitorar sua composição corporal e otimizar seu desempenho esportivo.
+3. **Atletas e entusiastas de fitness:** Atletas profissionais, entusiastas de fitness e praticantes de atividades físicas regulares que desejam monitorar sua composição corporal e otimizar seu desempenho esportivo.
 
-4- **Profissionais de saúde:** Profissionais de saúde, como médicos, nutricionistas e personal trainers, que podem recomendar o uso do aplicativo aos seus pacientes e clientes como uma ferramenta complementar para monitorar a saúde e orientar os programas de saúde e fitness.
+4. **Profissionais de saúde:** Profissionais de saúde, como médicos, nutricionistas e personal trainers, que podem recomendar o uso do aplicativo aos seus pacientes e clientes como uma ferramenta complementar para monitorar a saúde e orientar os programas de saúde e fitness.
 
-5- **Educadores e pais:** Educadores e pais interessados em promover hábitos saudáveis entre crianças e adolescentes, utilizando o aplicativo como uma ferramenta educacional para ensinar sobre nutrição e saúde.
+5. **Educadores e pais:** Educadores e pais interessados em promover hábitos saudáveis entre crianças e adolescentes, utilizando o aplicativo como uma ferramenta educacional para ensinar sobre nutrição e saúde.
 
 O aplicativo foi projetado para ser inclusivo e acessível a uma ampla variedade de usuários, independentemente de idade, sexo ou nível de condicionamento físico. Seu objetivo é fornecer uma experiência personalizada e educativa que atenda às necessidades e objetivos individuais de cada usuário, capacitando-os a assumir o controle de sua saúde e bem-estar.
