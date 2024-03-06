@@ -72,7 +72,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
 |RF-011| Os usuários devem ter a opção de personalizar a interface do aplicativo, incluindo temas de cores, tamanho de fonte e preferências de exibição para melhor atender às suas necessidades visuais. | MÉDIA |
 |RF-012| O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| MEDIA |
-|------|------------------------------------------------------------------------------------------------------------|----|
 |------|Estes requisitos funcionais garantirão que o aplicativo de Monitoramento de IMC ofereça uma experiência abrangente e personalizada aos usuários, ajudando-os a monitorar sua saúde e adotar hábitos saudáveis de forma eficaz e conveniente.|----|
 {: style="width: 500px;"}
 
