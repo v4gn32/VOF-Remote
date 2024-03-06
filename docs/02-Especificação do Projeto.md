@@ -60,7 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |   ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O aplicativo deve permitir que os usuários insiram seu peso e altura para calcular automaticamente seu Índice de Massa Corporal (IMC) de acordo com a fórmula padrão (IMC = peso / altura²). | ALTA |
+|RF_001| O aplicativo deve permitir que os usuários insiram seu peso e altura para calcular automaticamente seu Índice de Massa Corporal (IMC) de acordo com a fórmula padrão (IMC = peso / altura²). | ALTA |
 |RF-002| Os usuários devem poder fornecer informações pessoais, como idade, sexo e nível de atividade física, para uma melhor precisão na avaliação do IMC e recomendações personalizadas.  | ALTA |
 |RF-003| O aplicativo deve exibir claramente o valor do IMC atual do usuário, juntamente com sua interpretação de acordo com as categorias de peso estabelecidas pela Organização Mundial da Saúde (OMS). | ALTA |
 |RF-004| Deve ser possível para os usuários visualizarem um histórico de suas medições de IMC ao longo do tempo, permitindo o acompanhamento do progresso e identificação de tendências. | MÉDIA |
