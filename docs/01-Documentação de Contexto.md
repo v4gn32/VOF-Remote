@@ -22,15 +22,15 @@ O principal objetivo do projeto do aplicativo de Monitoramento de Índice de Mas
 
 Os objetivos específicos do projeto incluem:
 
-1- **Desenvolvimento de uma interface intuitiva**: Criar uma interface de usuário amigável e intuitiva, que permita aos usuários calcular seu IMC de forma rápida e fácil, independentemente de sua experiência tecnológica.
+1. **Desenvolvimento de uma interface intuitiva**: Criar uma interface de usuário amigável e intuitiva, que permita aos usuários calcular seu IMC de forma rápida e fácil, independentemente de sua experiência tecnológica.
 
-2- **Funcionalidades abrangentes:** Integrar funcionalidades adicionais, como registro de dados pessoais, histórico de medições, dicas de nutrição e exercícios físicos, para oferecer uma experiência completa e personalizada aos usuários.
+2. **Funcionalidades abrangentes:** Integrar funcionalidades adicionais, como registro de dados pessoais, histórico de medições, dicas de nutrição e exercícios físicos, para oferecer uma experiência completa e personalizada aos usuários.
 
-3- **Educação e conscientização:** Fornecer informações claras e acessíveis sobre o significado do IMC, seus impactos na saúde e as medidas que os usuários podem adotar para melhorar seu estado físico e promover um estilo de vida saudável.
+3. **Educação e conscientização:** Fornecer informações claras e acessíveis sobre o significado do IMC, seus impactos na saúde e as medidas que os usuários podem adotar para melhorar seu estado físico e promover um estilo de vida saudável.
 
-4- **Acompanhamento e motivação:** Permitir que os usuários estabeleçam metas pessoais de saúde, acompanhem seu progresso ao longo do tempo e recebam incentivos e lembretes para manter sua jornada de bem-estar.
+4. **Acompanhamento e motivação:** Permitir que os usuários estabeleçam metas pessoais de saúde, acompanhem seu progresso ao longo do tempo e recebam incentivos e lembretes para manter sua jornada de bem-estar.
 
-5- **Segurança e privacidade:** Garantir a segurança e privacidade dos dados dos usuários, adotando medidas robustas de proteção de dados e conformidade com regulamentações de privacidade relevantes.
+5. **Segurança e privacidade:** Garantir a segurança e privacidade dos dados dos usuários, adotando medidas robustas de proteção de dados e conformidade com regulamentações de privacidade relevantes.
 
 Ao alcançar esses objetivos, o aplicativo de Monitoramento de IMC pretende se tornar uma ferramenta confiável e indispensável para indivíduos que buscam melhorar sua saúde e qualidade de vida, fornecendo-lhes os recursos e o apoio necessários para alcançar seus objetivos de bem-estar de maneira eficaz e sustentável.
 
