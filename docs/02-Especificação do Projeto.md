@@ -50,7 +50,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana Lucia 		    |gostaria de ter acesso a uma calculadora de calorias no aplicativo para ajudar a controlar minha ingestão diária de alimentos e manter um peso saudável.|facilitar o monitoramento da minha dieta e promovendo escolhas alimentares conscientes.|
 |Márcio Oliveira	|desejo receber notificações automáticas no aplicativo quando o IMC de um membro da minha família estiver fora da faixa saudável, para que possamos agir rapidamente.|garantir que todos na família mantenham um estilo de vida saudável e evitando problemas de saúde futuros.|
 |Sofia Santos		  |quero poder compartilhar meus dados de IMC com meu médico diretamente do aplicativo para que eles possam acompanhar minha saúde de perto e fornecer orientações específicas.|garantir uma comunicação eficiente com meu profissional de saúde e uma abordagem colaborativa para cuidar da minha saúde.|
-<: style="width: 500px;">
 
 ## Requisitos
 
@@ -62,14 +61,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF_001| O aplicativo deve permitir que os usuários insiram seu peso e altura para calcular automaticamente seu Índice de Massa Corporal (IMC) de acordo com a fórmula padrão (IMC = peso / altura²). | ALTA |
 |RF-002| Os usuários devem poder fornecer informações pessoais, como idade, sexo e nível de atividade física, para uma melhor precisão na avaliação do IMC e recomendações personalizadas.  | ALTA |
-|RF-003| (OBS Não funcional) O aplicativo deve exibir claramente o valor do IMC atual do usuário, juntamente com sua interpretação de acordo com as categorias de peso estabelecidas pela Organização Mundial da Saúde (OMS). | ALTA |
+|RF-003| **(OBS Não funcional)** O aplicativo deve exibir claramente o valor do IMC atual do usuário, juntamente com sua interpretação de acordo com as categorias de peso estabelecidas pela Organização Mundial da Saúde (OMS). | ALTA |
 |RF-004| Deve ser possível para os usuários visualizarem um histórico de suas medições de IMC ao longo do tempo, permitindo o acompanhamento do progresso e identificação de tendências. | MÉDIA |
 |RF-005| Os usuários devem poder estabelecer metas pessoais de IMC e receber feedback sobre seu progresso em relação a essas metas, incluindo gráficos e estatísticas visuais. | MÉDIA |
 |RF-006| O aplicativo deve fornecer orientações e dicas de nutrição com base no IMC do usuário, incluindo sugestões de dieta equilibrada e recomendações de alimentos para promover a saúde e o bem-estar. | BAIXA |
 |RF-007| Deve ser possível para os usuários receberem sugestões de exercícios físicos adequados ao seu IMC e objetivos de saúde, com opções para diferentes níveis de intensidade e preferências pessoais. | BAIXA |
 |RF-008| Deve ser possível para os usuários compartilharem seus resultados de IMC e conquistas de saúde com amigos, familiares ou profissionais de saúde por meio de mídias sociais ou outros canais. | BAIXA |
-|RF-010| (Colocar como não funcional)O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
-|RF-011| (Colocar como não funcional)O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet. | BAIXA |
+|RF-010| **(Colocar como não funcional)** O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
+|RF-011| **(Colocar como não funcional)** O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet. | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -86,9 +85,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-008 | O aplicativo deve suportar diferentes idiomas, moedas e formatos de data para atender a usuários em todo o mundo, proporcionando uma experiência localizada e culturalmente relevante. |  |
 | RNF-009 | O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. |  |
 | RNF-010 | O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. |  |
-|         |                                                              |            |
-|         |||
-|         |||
+
 
 ## Restrições
 
@@ -101,9 +98,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 03   | O aplicativo deve ser desenvolvido utilizando tecnologias compatíveis com os sistemas operacionais móveis alvo (iOS, Android), levando em consideração requisitos de desempenho, segurança e compatibilidade. |
 | 04   | O aplicativo deve cumprir com as regulamentações locais e internacionais relacionadas à privacidade de dados, segurança da informação e outras normas aplicáveis à saúde digital. |
 | 05   | O aplicativo deve ser projetado para funcionar em dispositivos móveis com diferentes capacidades de hardware e em condições variadas de rede, considerando restrições de largura de banda, velocidade de processamento e consumo de energia. |
-|      |                                                              |
-|      |                                                              |
-
 
 
 ## Modelagem do Processo de Negócio 
