@@ -18,26 +18,27 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 
 ## Personas
-        <table>
-    <tbody>
-        <tr>
-            <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
-            <td colspan=2> <h1>Michele de Oliveira</h1> </td> 
-        </tr>
-        <tr>
-            <td rowspan=2><h4>Idade: 30 </h4>
-                <h4>Ocupação: Advogada,  encarregada  no setor de dívida ativa da  prefeitura. </ h4 >
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Hobbies:</strong> 
-            <ul>
-            <li>Caminhada ;</li> 
-            <li>Natação;</li>
-            <li>Livros de Ficção;</li>
-            </li></ul></td>
-        </tr>
-  	    <tr>
+
+<table>
+        <tbody>
+                <tr>
+                    <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
+                    <td colspan=2> <h1>Michele de Oliveira</h1> </td> 
+                </tr>
+                <tr>
+                    <td rowspan=2><h4>Idade: 30 </h4>
+                        <h4>Ocupação: Advogada,  encarregada  no setor de dívida ativa da  prefeitura. </ h4 >
+                </td>
+                </tr>
+                <tr>
+                    <td><strong>Hobbies:</strong> 
+                    <ul>
+                    <li>Caminhada ;</li> 
+                    <li>Natação;</li>
+                    <li>Livros de Ficção;</li>
+                    </li></ul></td>
+                </tr>
+  	            <tr>
             <td colspan="3"><strong>Motivações:</strong><br> 
             <ul><li>Aumentar Renda;</li> 
             <li>Vida Estável;</li> 
