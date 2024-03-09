@@ -18,31 +18,11 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 
 ## Personas
-
-<table>
-        <tbody>
-                <tr>
-                    <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50% >  </td>
-                    <td colspan=2> <h1>Luciana Miller</h1> </td> 
-                </tr>
-                <tr>
-                        <ul>
-                                <tr>><h4>Idade: 35 anos </h4>
-                                <h4>Profissão:</h4> Médica<tr>
-                        </ul>
-                </td>
-                </tr>
-  	        <tr>
-                    <td colspan="3"><strong>Descrição:</strong><br> 
-                    Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
-                </td></tr>
-        </tbody>
-</table>
-
-
+<tr>
+<td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
 1. Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
-
+</tr>
 2. Pedro Henrique, Atleta Amador:<br>Idade: 28 anos<br>Profissão: Engenheiro<br>
 Descrição: Pedro é um entusiasta do fitness que pratica esportes regularmente. Ele deseja um aplicativo que não só rastreie seu IMC, mas também forneça insights sobre como melhorar sua composição corporal e desempenho atlético.
 
