@@ -18,8 +18,6 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 
 ## Personas
-<table>
-    <tbody>
         <tr>
             <td rowspan=3> <img src="/docs/img/Luciana Miller.jpeg" width=50% height=50%>  </td>
             <td colspan=2> <h1>Luciana Miller</h1> </td> 
@@ -29,13 +27,8 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
                 <h4>Profissional de Saúde Ocupada: </ h4 >
                 <h4>Profissão: Médica</h4>
                 <h4>Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.</h4>
-              
-            </td>
+        </td>
         </tr>
-       
-    </tbody>
-</table>
-
 1. Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
 
