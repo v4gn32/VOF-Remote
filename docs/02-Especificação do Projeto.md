@@ -19,10 +19,10 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 ## Personas
 <tr>
-<td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
+<td rowspan=3> <img src="/docs/img/Luciana.jpg" width=10% height=10%>  </td>
 1. Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
-</tr>
+</tr><br>
 2. Pedro Henrique, Atleta Amador:<br>Idade: 28 anos<br>Profissão: Engenheiro<br>
 Descrição: Pedro é um entusiasta do fitness que pratica esportes regularmente. Ele deseja um aplicativo que não só rastreie seu IMC, mas também forneça insights sobre como melhorar sua composição corporal e desempenho atlético.
 
