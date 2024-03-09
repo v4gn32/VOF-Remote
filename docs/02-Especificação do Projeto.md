@@ -34,12 +34,6 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
                     <td colspan="3"><strong>Descrição:</strong><br> 
                     Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
                 </td></tr>
-               <tr>
-                    <td colspan="3"><strong>Frustrações:</strong> 
-                    <ul><li>Saldo Negativo;</li>
-                    <li> Não tem reserva pra investir</li>
-                </td>
-                </tr>
         </tbody>
 </table>
 
