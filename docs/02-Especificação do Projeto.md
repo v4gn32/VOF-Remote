@@ -23,11 +23,11 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
         <tbody>
                 <tr>
                     <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
-                    <td colspan=2> <h1>Michele de Oliveira</h1> </td> 
+                    <td colspan=2> <h1>Luciana Miller</h1> </td> 
                 </tr>
                 <tr>
-                    <td rowspan=2><h4>Idade: 30 </h4>
-                        <h4>Ocupação: Advogada,  encarregada  no setor de dívida ativa da  prefeitura. </ h4 >
+                    <td rowspan=2><h4>Idade: 35 anos </h4>
+                        <h4>Profissão: Médica </ h4 >
                 </td>
                 </tr>
                 <tr>
@@ -39,10 +39,8 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
                     </li></ul></td>
                 </tr>
   	            <tr>
-            <td colspan="3"><strong>Motivações:</strong><br> 
-            <ul><li>Aumentar Renda;</li> 
-            <li>Vida Estável;</li> 
-            <li>Aumentar Patrimonio.</li></ul>
+            <td colspan="3"><strong>Descrição:</strong><br> 
+            Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
             </td></tr>
        <tr>
             <td colspan="3"><strong>Frustrações:</strong> 
