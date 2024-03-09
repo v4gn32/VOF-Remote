@@ -22,7 +22,7 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 <table>
         <tbody>
                 <tr>
-                    <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
+                    <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50% align="center">  </td>
                     <td colspan=2> <h1>Luciana Miller</h1> </td> 
                 </tr>
                 <tr>
