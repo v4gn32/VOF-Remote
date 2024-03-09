@@ -25,7 +25,7 @@ Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospita
 </tr><br><br>
 
 <tr>
-<td rowspan=3> <img src="/docs/img/Pedro.jpg" width=10% height=10%>  </td>
+<td rowspan=3> <img src="/docs/img/Persona_3.jpg" width=10% height=10%>  </td>
 2. Pedro Henrique, Atleta Amador:<br>Idade: 28 anos<br>Profissão: Engenheiro<br>
 Descrição: Pedro é um entusiasta do fitness que pratica esportes regularmente. Ele deseja um aplicativo que não só rastreie seu IMC, mas também forneça insights sobre como melhorar sua composição corporal e desempenho atlético.
 </tr><br><br>
@@ -43,7 +43,7 @@ Descrição: Márcio é um pai ocupado com responsabilidades familiares e profis
 </tr><br><br>
 
 <tr>
-<td rowspan=3> <img src="/docs/img/Sofia.jpg" width=10% height=10%>  </td>
+<td rowspan=3> <img src="/docs/img/Sofia Santos.jpg" width=10% height=10%>  </td>
 5. Sofia Santos, Aposentada Ativa:<br>Idade: 65 anos<br>Profissão: Aposentada<br>
 Descrição: Sofia é uma aposentada que gosta de manter um estilo de vida ativo. Ela busca um aplicativo que a ajude a monitorar seu IMC e a saúde geral à medida que envelhece, com dicas específicas para sua faixa etária.
 </tr><br><br>
