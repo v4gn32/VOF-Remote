@@ -27,7 +27,7 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
                 </tr>
                 <tr>
                         <ul>
-                                <li><td rowspan=2><h4>Idade: 35 anos </h4></td>
+                                <li><td><h4>Idade: 35 anos </h4></td>
                                 <li><h4>Profissão:</h4> Médica</li>
                         </ul>
                 </td>
