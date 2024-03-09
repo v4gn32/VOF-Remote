@@ -21,7 +21,7 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 <table>
     <tbody>
         <tr>
-            <td rowspan=3> <img src="/docs/img/Persona_1.jpg" width=50% height=50%>  </td>
+            <td rowspan=3> <img src="/docs/img/Luciana Miller.jpeg" width=50% height=50%>  </td>
             <td colspan=2> <h1>Luciana Miller</h1> </td> 
         </tr>
         <tr>
@@ -33,92 +33,6 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
             </td>
         </tr>
        
-  	    <tr>
-            <td colspan="3"><strong>Motivações:</strong><br> 
-            <ul><li>Aumentar Renda;</li> 
-            <li>Vida Estável;</li> 
-            <li>Aumentar Patrimonio.</li></ul>
-            </td></tr>
-       <tr>
-            <td colspan="3"><strong>Frustrações:</strong> 
-            <ul><li>Saldo Negativo;</li>
-            <li> Não tem reserva pra investir</li>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-<table>
-    <tbody>
-        <tr>
-            <td rowspan=3> <img src="/docs/img/Persona_2.jpg" width=50% height=50%>  </td>
-            <td colspan=2> <h1>Carlos Gomes</h1> </td> 
-        </tr>
-        <tr>
-            <td rowspan=2><h4>Idade: 40 </h4>
-            <h4>Ocupação: Engenheiro de Produção, funcionário de uma multinacional do setor da indústria automotiva. </h4>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Hobbies:</strong> 
-            <ul><li>Academia;</li> 
-              <li>Jogos Ps5;</li>
-              <li>Futebol;</li>
-              <br>
-             <br>
-              <br>
-            </ul></td>
-        </tr>
-  	    <tr>
-            <td colspan="3"><strong>Motivações:</strong><br> 
-            <ul><li>Ter uma renda extra;</li> 
-            <li>Estabilizar vida financeira;</li> 
-            <li>Adquirir Bens.</li></ul>
-            </td></tr>
-       <tr>
-            <td colspan="3"><strong>Frustrações:</strong> 
-            <ul><li>Renda Baixa;</li>
-            <li> Não consegue criar reserva</li>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-<table>
-    <tbody>
-        <tr>
-            <td rowspan=3> <img src="/docs/img/Persona_3.jpg" width=45% height=45%>  </td>
-            <td colspan=2> <h1>Marco Aurélio</h1> </td> 
-        </tr>
-        <tr>
-            <td rowspan=2><h4>Idade: 35 </h4>
-            <h4>Ocupação: Analista GSTI jr, faz gestão de serviços em TI numa startup </h4>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Hobbies:</strong> 
-            <ul><li>Caminhada;</li> 
-            <li>Jogos de RPG;</li>
-            <li>Pocker;</li>
-            <br>
-            <br>
-            <br>
-            </ul></td>
-        </tr>
-  	    <tr>
-            <td colspan="3"><strong>Motivações:</strong><br> 
-            <ul><li>Ter uma boa reserva;</li> 
-            <li>Aprender a lidar com gastos;</li> 
-            <li>Investir;</li></ul>
-            </td></tr>
-       <tr>
-            <td colspan="3"><strong>Frustrações:</strong> 
-            <ul><li>Renda Baixa;</li>
-            <li> Não tem conhecimento de investimnto;</li>
-            <li> Não conseguir administrar vida financeira;</li>
-            </td>
-        </tr>
     </tbody>
 </table>
 
