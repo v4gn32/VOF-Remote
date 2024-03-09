@@ -18,17 +18,41 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 
 ## Personas
+        <table>
+    <tbody>
         <tr>
-            <td rowspan=3> <img src="/docs/img/Luciana Miller.jpeg" width=50% height=50%>  </td>
-            <td colspan=2> <h1>Luciana Miller</h1> </td> 
+            <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=50% height=50%>  </td>
+            <td colspan=2> <h1>Michele de Oliveira</h1> </td> 
         </tr>
         <tr>
-            <td rowspan=2><h4>Idade: 35 anos </h4>
-                <h4>Profissional de Saúde Ocupada: </ h4 >
-                <h4>Profissão: Médica</h4>
-                <h4>Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.</h4>
-        </td>
+            <td rowspan=2><h4>Idade: 30 </h4>
+                <h4>Ocupação: Advogada,  encarregada  no setor de dívida ativa da  prefeitura. </ h4 >
+            </td>
         </tr>
+        <tr>
+            <td><strong>Hobbies:</strong> 
+            <ul>
+            <li>Caminhada ;</li> 
+            <li>Natação;</li>
+            <li>Livros de Ficção;</li>
+            </li></ul></td>
+        </tr>
+  	    <tr>
+            <td colspan="3"><strong>Motivações:</strong><br> 
+            <ul><li>Aumentar Renda;</li> 
+            <li>Vida Estável;</li> 
+            <li>Aumentar Patrimonio.</li></ul>
+            </td></tr>
+       <tr>
+            <td colspan="3"><strong>Frustrações:</strong> 
+            <ul><li>Saldo Negativo;</li>
+            <li> Não tem reserva pra investir</li>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 1. Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
 Descrição: Luciana é uma médica ocupada que trabalha longas horas no hospital. Ela quer um aplicativo de monitoramento de IMC que seja rápido e fácil de usar, permitindo-lhe acompanhar o IMC de seus pacientes em tempo real e fornecer conselhos de saúde quando necessário.
 
