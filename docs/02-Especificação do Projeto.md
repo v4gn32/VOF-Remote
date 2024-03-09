@@ -81,26 +81,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| O aplicativo deve fornecer orientações e dicas de nutrição com base no IMC do usuário, incluindo sugestões de dieta equilibrada e recomendações de alimentos para promover a saúde e o bem-estar. | BAIXA |
 |RF-007| Deve ser possível para os usuários receberem sugestões de exercícios físicos adequados ao seu IMC e objetivos de saúde, com opções para diferentes níveis de intensidade e preferências pessoais. | BAIXA |
 
- | BAIXA |
-
-
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |---------|-------------------------|----|
-| RNF_001 | O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. |  |
-| RNF-002 | Deve ser implementado um sistema robusto de segurança para proteger os dados pessoais dos usuários, incluindo criptografia de ponta a ponta, proteção contra acesso não autorizado e conformidade com regulamentações de privacidade, como o GDPR.  |  |
-| RNF-003 | O aplicativo deve estar disponível continuamente para os usuários, com tempo de inatividade mínimo para manutenção e atualizações planejadas. |  |
-| RNF-004 | O aplicativo deve ser compatível com uma ampla variedade de dispositivos móveis, incluindo smartphones e tablets, e com diferentes sistemas operacionais, como iOS e Android. |  |
-| RNF-005 | A interface do usuário deve ser intuitiva e fácil de usar, seguindo as diretrizes de design de usabilidade e acessibilidade para garantir que pessoas com deficiências físicas ou cognitivas também possam utilizar o aplicativo com facilidade. |  |
-| RNF-006 | O aplicativo deve ser capaz de lidar com falhas de forma resiliente, oferecendo uma experiência contínua aos usuários, mesmo em situações de instabilidade na rede ou problemas de hardware. |  |
-| RNF-007 | O sistema deve ser projetado para escalar facilmente para lidar com um aumento no número de usuários e volume de dados, garantindo que o desempenho não seja comprometido à medida que a base de usuários cresce. |  |
-| RNF-008 | O aplicativo deve suportar diferentes idiomas, moedas e formatos de data para atender a usuários em todo o mundo, proporcionando uma experiência localizada e culturalmente relevante. |  |
-| RNF-009 | O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. |  |
-| RNF-010 | O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. |  |
-|RF-011|  O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
-|RF-012|  O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| BAIXA |
-|RF-013|  O aplicativo deve exibir claramente o valor do IMC atual do usuário, juntamente com sua interpretação de acordo com as categorias de peso estabelecidas pela Organização Mundial da Saúde (OMS). | ALTA |
+| RNF_001 | O aplicativo deve responder de forma rápida e eficiente, mesmo em dispositivos móveis com recursos limitados, garantindo uma experiência fluida para os usuários. | ALTA |
+| RNF-002 | Deve ser implementado um sistema robusto de segurança para proteger os dados pessoais dos usuários, incluindo criptografia de ponta a ponta, proteção contra acesso não autorizado e conformidade com regulamentações de privacidade, como o GDPR.  | MÉDIA |
+| RNF-003 | O aplicativo deve estar disponível continuamente para os usuários, com tempo de inatividade mínimo para manutenção e atualizações planejadas. | ALTA |
+| RNF-004 | O aplicativo deve ser compatível com uma ampla variedade de dispositivos móveis, incluindo smartphones e tablets, e com diferentes sistemas operacionais, como iOS e Android. | BAIXA |
+| RNF-005 | A interface do usuário deve ser intuitiva e fácil de usar, seguindo as diretrizes de design de usabilidade e acessibilidade para garantir que pessoas com deficiências físicas ou cognitivas também possam utilizar o aplicativo com facilidade. | BAIXA |
+| RNF-006 | O aplicativo deve ser capaz de lidar com falhas de forma resiliente, oferecendo uma experiência contínua aos usuários, mesmo em situações de instabilidade na rede ou problemas de hardware. | ALTA |
+| RNF-007 | O sistema deve ser projetado para escalar facilmente para lidar com um aumento no número de usuários e volume de dados, garantindo que o desempenho não seja comprometido à medida que a base de usuários cresce. | MEDIA |
+| RNF-008 | O aplicativo deve suportar diferentes idiomas, moedas e formatos de data para atender a usuários em todo o mundo, proporcionando uma experiência localizada e culturalmente relevante. | BAIXA |
+| RNF-009 | O código-fonte do aplicativo deve ser bem documentado e organizado, facilitando a manutenção contínua, correção de bugs e adição de novos recursos no futuro. | ALTA |
+| RNF-010 | O aplicativo deve cumprir com os padrões e regulamentações relevantes da indústria e da área da saúde, garantindo sua conformidade com normas de segurança, privacidade e qualidade de software. | BAIXA |
+| RNF-011 |  O aplicativo deve oferecer suporte a múltiplos idiomas para atender a uma ampla variedade de usuários em todo o mundo. | BAIXA |
+| RNF-012 |  O aplicativo deve ser capaz de funcionar offline, permitindo que os usuários registrem suas medições de IMC e acessem informações básicas mesmo sem uma conexão ativa à internet.| BAIXA |
+| RNF-013 |  O aplicativo deve exibir claramente o valor do IMC atual do usuário, juntamente com sua interpretação de acordo com as categorias de peso estabelecidas pela Organização Mundial da Saúde (OMS). | ALTA |
 
 
 ## Restrições
