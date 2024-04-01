@@ -53,6 +53,3 @@ As telas da calculadora em um aplicativo do YMC é onde os usuários inserem seu
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/efc93199-0612-4c15-b46f-56ea2d320159)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/85be9fa5-eecc-43f5-ac3e-2e493530a162)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/3b260334-47fe-4d75-bc7c-622859822b41)
