@@ -49,7 +49,7 @@ A tela de perfil do YMC permite que os usuários visualizem e editem suas inform
 
 5- Telas da calculadora
 
-As telas da calculadora em um aplicativo do YMC é onde os usuários inserem seu peso e altura para calcular instantaneamente seu Índice de Massa Corporal, oferecendo uma avaliação rápida e conveniente de sua saúde com base nessas medidas.
+As telas da calculadora do YMC é onde os usuários inserem seu peso e altura para calcular instantaneamente seu Índice de Massa Corporal, oferecendo uma avaliação rápida e conveniente de sua saúde com base nessas medidas.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/efc93199-0612-4c15-b46f-56ea2d320159)
 
