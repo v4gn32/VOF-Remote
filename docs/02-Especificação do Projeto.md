@@ -117,11 +117,53 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Atualmente, muitas pessoas enfrentam dificuldades ao monitorar seu Índice de Massa Corporal (IMC) e adotar hábitos saudáveis devido a uma série de desafios:
+
+1. **Dificuldade de Cálculo Manual do IMC:** Para calcular o IMC, os indivíduos precisam recorrer a fórmulas ou tabelas específicas, o que pode ser complicado e demorado para muitos, especialmente aqueles com pouca familiaridade com cálculos matemáticos.
+
+2. **Interpretação Limitada do IMC:** Mesmo após calcular o IMC, muitas pessoas têm dificuldade em interpretar seu significado e entender como ele se relaciona com sua saúde geral, incluindo riscos de doenças relacionadas ao peso.
+
+3. **Falta de Feedback Personalizado:** Sem orientação especializada, os usuários muitas vezes não recebem feedback personalizado sobre como melhorar sua saúde com base em seus dados de IMC e hábitos de vida.
+
+4. **Monitoramento Ineficiente de Hábitos de Saúde:** O monitoramento manual de hábitos de saúde, como alimentação e atividade física, é trabalhoso e sujeito a erros, dificultando a análise precisa do impacto desses hábitos na saúde e no IMC.
+
+### Modelo do Sistema Atual:
+
+Atualmente, os indivíduos interessados em monitorar seu IMC e adotar hábitos saudáveis geralmente seguem um processo manual e fragmentado:
+
+1. **Cálculo do IMC:** Os usuários realizam cálculos manuais do IMC usando fórmulas específicas ou consultando tabelas de referência disponíveis em fontes como livros ou sites da internet.
+
+2. **Interpretação do IMC:** Após calcular o IMC, os usuários podem recorrer a recursos online ou profissionais de saúde para interpretar o significado do IMC e entender como ele afeta sua saúde.
+
+3. **Registro de Hábitos de Saúde:** Os usuários podem manter diários ou planilhas para registrar suas atividades físicas, ingestão de alimentos e outros hábitos de saúde, tentando analisar manualmente seus impactos no IMC.
+
+4. **Feedback Limitado:** A maioria dos usuários não recebe feedback personalizado sobre seus hábitos de saúde e IMC, limitando sua capacidade de tomar medidas eficazes para melhorar sua condição física.
+
+>[!IMPORTANT]
+>
+>Este modelo atual reflete a abordagem tradicional e manual para o monitoramento de saúde e IMC, que é trabalhosa, sujeita a erros e carece de orientação personalizada para promover mudanças eficazes de hábitos de vida.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta apresentada é a criação de um aplicativo de Monitoramento de Índice de Massa Corporal (IMC), visando oferecer uma solução abrangente e acessível para ajudar os usuários a monitorar seu IMC, interpretar seus resultados e adotar hábitos saudáveis para melhorar sua saúde e bem-estar.
+
+**Limites da Proposta:**
+* A proposta se concentra principalmente no monitoramento do IMC e na promoção de hábitos saudáveis relacionados à saúde física e nutricional.
+* Não aborda aspectos mais complexos da saúde, como condições médicas específicas ou doenças crônicas, que podem exigir abordagens mais especializadas.
+
+**Ligações com as Estratégias e Objetivos do Negócio:**
+* A proposta está alinhada com estratégias de negócios centradas no cliente, buscando atender às necessidades e expectativas dos usuários por meio de uma solução digital inovadora e personalizada.
+* Contribui para os objetivos do negócio relacionados à promoção da saúde e do bem-estar da comunidade, incentivando mudanças positivas de estilo de vida e reduzindo os riscos associados a problemas de saúde relacionados ao peso.
+
+**Oportunidades de Melhorias:**
+* Integração com dispositivos de monitoramento de saúde: Explorar a possibilidade de integração com dispositivos wearable ou outros dispositivos de monitoramento de saúde para melhorar a precisão e a conveniência do monitoramento do IMC.
+* Personalização e recomendações avançadas: Desenvolver algoritmos avançados para fornecer recomendações mais personalizadas com base nos dados do usuário, como histórico de saúde, preferências alimentares e metas individuais.
+* Parcerias com profissionais de saúde: Estabelecer parcerias com profissionais de saúde, como nutricionistas e personal trainers, para oferecer serviços adicionais, como consultas virtuais e programas de treinamento personalizados.
+* Expansão para além do IMC: Considerar a expansão do escopo do aplicativo para incluir outras métricas de saúde, como níveis de atividade física, qualidade do sono e saúde mental, oferecendo uma solução mais abrangente para o bem-estar geral dos usuários.
+
+>[!IMPORTANT]
+>
+>Essas melhorias podem potencializar a proposta, tornando o aplicativo ainda mais valioso e eficaz para os usuários, ao mesmo tempo em que fortalecem sua posição no mercado de saúde digital.
 
 ### Processo 1 – NOME DO PROCESSO
 
