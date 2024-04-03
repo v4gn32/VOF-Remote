@@ -18,6 +18,7 @@ Essas técnicas e ferramentas serão empregadas de forma integrada para garantir
 
 
 ## Personas
+
 <tr>
 <td rowspan=3> <img src="/docs/img/Luciana.jpg" width=10% height=10%>  </td>
 1. Luciana Miller, Profissional de Saúde Ocupada:<br>Idade: 35 anos<br>Profissão: Médica<br>
