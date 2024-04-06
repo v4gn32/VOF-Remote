@@ -181,21 +181,22 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 ## Indicadores de Desempenho
 
 Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+|Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva |
+|--------- | -------- | --------- | ------- | -------------- | ----------- |
+|Taxa de Registro de Usuários | Aumentar a base de usuários do aplicativo | Mede a proporção de novos usuários registrados em relação aos visitantes. | (Novos usuários registrados / Total de visitantes) * 100 | Registro de usuários | Processo Interno |
+|Precisão do Cálculo do IMC | Garantir a precisão das medições de IMC | Avalia a precisão dos cálculos de IMC realizados pelo sistema. | (IMC calculado pelo sistema - IMC calculado manualmente) / IMC calculado manualmente * 100 | Cálculo de IMC | Processo Interno |
+|Tempo Médio de Resposta do Sistema | Melhorar a eficiência do aplicativo | Mede o tempo médio que o sistema leva para responder às solicitações. | Soma dos tempos de resposta / Número de solicitações | Sistema | Processo Interno |
+|Taxa de Retenção de Usuários | Aumentar a fidelidade dos usuários | Mede a porcentagem de usuários que retornam ao aplicativo regularmente. | (Usuários que retornaram / Total de usuários) * 100 | Registro de usuários | Cliente |
+|Satisfação do Usuário | Melhorar a experiência do usuário | Avalia a satisfação dos usuários com o aplicativo por meio de pesquisas. | Pontuação média das pesquisas de satisfação | Pesquisas de satisfação | Cliente |
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
-
-
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+>[!IMPORTANT]
+>
+>Esses indicadores fornecem uma maneira de avaliar o desempenho do processo de Monitoramento de IMC, abrangendo aspectos como aquisição de usuários, qualidade do sistema, engajamento dos usuários e satisfação geral do cliente.
 
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+<img src="/docs/img/DiagramaCdU.png" width=100% height=100%>
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
