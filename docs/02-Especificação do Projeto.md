@@ -180,7 +180,6 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
 |Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva |
 |--------- | -------- | --------- | ------- | -------------- | ----------- |
 |Taxa de Registro de Usuários | Aumentar a base de usuários do aplicativo | Mede a proporção de novos usuários registrados em relação aos visitantes. | (Novos usuários registrados / Total de visitantes) * 100 | Registro de usuários | Processo Interno |
@@ -197,15 +196,6 @@ Apresente aqui os principais indicadores de desempenho e algumas metas para o pr
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 <img src="/docs/img/DiagramaCdU.png" width=100% height=100%>
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
