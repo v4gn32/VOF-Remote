@@ -144,6 +144,7 @@ Atualmente, os indivíduos interessados em monitorar seu IMC e adotar hábitos s
 >
 >Este modelo atual reflete a abordagem tradicional e manual para o monitoramento de saúde e IMC, que é trabalhosa, sujeita a erros e carece de orientação personalizada para promover mudanças eficazes de hábitos de vida.
 
+
 ### Descrição Geral da Proposta
 
 A proposta apresentada é a criação de um aplicativo de Monitoramento de Índice de Massa Corporal (IMC), visando oferecer uma solução abrangente e acessível para ajudar os usuários a monitorar seu IMC, interpretar seus resultados e adotar hábitos saudáveis para melhorar sua saúde e bem-estar.
@@ -166,17 +167,80 @@ A proposta apresentada é a criação de um aplicativo de Monitoramento de Índi
 >
 >Essas melhorias podem potencializar a proposta, tornando o aplicativo ainda mais valioso e eficaz para os usuários, ao mesmo tempo em que fortalecem sua posição no mercado de saúde digital.
 
-### Processo 1 – NOME DO PROCESSO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
-![Processo 1](img/02-bpmn-proc1.png)
+### Processo PesoPerfil 
 
-### Processo 2 – NOME DO PROCESSO
+O aplicativo PesoPerfil é uma ferramenta projetada para ajudar usuários a calcular e monitorar seu Índice de Massa Corporal (IMC) e a gerenciar metas relacionadas ao peso e saúde. Utilizando um diagrama BPMN (Business Process Model and Notation), o processo do aplicativo é mapeado para facilitar o entendimento das operações e funcionalidades oferecidas. A seguir, apresenta-se a documentação detalhada do diagrama BPMN associado ao aplicativo PesoPerfil.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+![processo](img/Diagrama-BPMN-pmv-ads-2024-1-e3-proj-pesoperfil.png)
 
-![Processo 2](img/02-bpmn-proc2.png)
+#### Início do Processo
+
+**1. Login (Ponto de Início)**
+
+- O processo começa com o usuário realizando o login no aplicativo.
+- Caso não tenha credenciais válidas, o usuário pode optar por recuperar a senha ou proceder ao cadastro.
+
+**2. Recuperação de Senha**
+
+- Usuários que esqueceram a senha podem recuperá-la seguindo os procedimentos de segurança do aplicativo.
+
+**3. Cadastro**
+
+- Novos usuários realizam o cadastro fornecendo informações necessárias.
+- Após o cadastro, o usuário é direcionado para calcular o IMC.
+
+#### Cálculo do IMC
+
+**4. Cálculo do IMC (RF_001 e RF_002)**
+
+- O aplicativo permite que o usuário insira peso e altura para o cálculo automático do IMC.
+- Informações adicionais como idade, sexo e nível de atividade física podem ser fornecidas para refinar o cálculo e as recomendações.
+
+**5. Cálculo do Peso Ideal**
+
+- Após o cálculo do IMC, o aplicativo calcula o peso ideal do usuário, com base nas informações fornecidas anteriormente.
+
+#### Resultados e Histórico
+
+**6. Exibição dos Resultados**
+
+- O IMC e o peso ideal são exibidos, juntamente com informações e dicas personalizadas.
+- Se o usuário atingiu o peso ideal, uma mensagem de congratulações é mostrada.
+
+**7. Salvamento dos Dados (RF_004)**
+
+- O IMC calculado é salvo no histórico do usuário na base de dados para acompanhamento futuro.
+
+**8. Visualização do Histórico**
+
+- O usuário pode visualizar o histórico de seus IMCs, permitindo acompanhar o progresso e identificar tendências.
+
+#### Funcionalidades Adicionais
+
+**9. Compartilhamento de Resultados (RF_003)**
+
+- Usuários podem compartilhar seus resultados e conquistas de saúde com outras pessoas através de mídias sociais ou outros canais.
+
+**10. Metas e Feedback (RF_005)**
+
+- Os usuários podem estabelecer metas de IMC e acompanhar o progresso com feedback visual, como gráficos e estatísticas.
+
+**11. Dicas de Nutrição (RF_006)**
+
+- Com base no IMC, o aplicativo fornece orientações e dicas de nutrição, sugestões de dieta e recomendações alimentares.
+
+**12. Sugestões de Exercícios (RF_007)**
+
+- São fornecidas sugestões de exercícios físicos compatíveis com o IMC do usuário e seus objetivos de saúde.
+
+#### Encerramento do Processo
+
+- O processo é considerado concluído quando o usuário desliga o aplicativo ou sai da sessão ativa.
+- Todas as informações são armazenadas de forma segura na base de dados do aplicativo para uso em sessões futuras.
+
+
 
 ## Indicadores de Desempenho
 
