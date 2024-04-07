@@ -25,11 +25,80 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+Essas tabelas descritas no diagrama abaixo, seus campos e relacionamentos formam a estrutura básica do modelo relacional a ser implementado em um sistema de banco de dados para o aplicativo PesoPerfil. 
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+```mermaid
+erDiagram
+    Usuario ||--o{ Historico : "tem"
+    Historico }|--|| Classificacao : "é classificado por"
+    
+    Usuario {
+        int UsuarioID PK "Chave Primária"
+        varchar Nome
+        varchar Email
+        varchar Senha
+        float Altura
+        int Idade
+        char Sexo
+        enum NivelAtividade "baixo, medio, alto"
+    }
+    
+    Historico {
+        int HistoricoID PK "Chave Primária"
+        int UsuarioID FK "Chave Estrangeira"
+        date DataRegistro
+        float Peso
+        float IMC
+    }
+    
+    Classificacao {
+        int ClassificacaoID PK "Chave Primária"
+        varchar Descricao
+        float IMCMin
+        float IMCMax
+    }
+
+```
+
+#### Tabelas:
+
+**1. Usuario**
+
+- UsuarioID: INT, chave primária, autoincremento
+- Nome: VARCHAR
+- Email: VARCHAR
+- Senha: VARCHAR
+- Altura: FLOAT
+- Idade: INT
+- Sexo: CHAR(1)
+- NivelAtividade: ENUM('baixo', 'medio', 'alto')
+
+**2. Historico**
+
+- HistoricoID: INT, chave primária, autoincremento
+- UsuarioID: INT, chave estrangeira referenciando Usuario.UsuarioID
+- DataRegistro: DATE
+- Peso: FLOAT
+- IMC: FLOAT
+
+**3. Classificacao**
+
+- ClassificacaoID: INT, chave primária, autoincremento
+- Descricao: VARCHAR
+- IMCMin: FLOAT
+- IMCMax: FLOAT
+
+#### Relacionamentos:
+
+- **Usuario** possui um relacionamento um para muitos com **Historico**, indicando que um usuário pode ter vários registros históricos.
+- **Historico** possui um relacionamento muitos para um com **Classificacao**, sugerindo que cada registro no histórico pode ser associado a uma classificação específica de IMC.
+
+#### Restrições de Integridade:
+
+- A chave estrangeira **UsuarioID** em **Historico** garante que cada registro no histórico esteja vinculado a um usuário existente.
+- As chaves estrangeiras devem garantir a consistência referencial, de modo que as entradas relacionadas não possam ser excluídas enquanto houver dependências.
+
+
 
 ## Modelo Físico
 
