@@ -258,7 +258,7 @@ O aplicativo PesoPerfil é uma ferramenta projetada para ajudar usuários a calc
 
 ## Diagrama de Casos de Uso
 
-![casos-de-uso](img/DiagramaCdu.png)
+![casos-de-uso](img/DiagramaCdU.png)
 
 
 # Matriz de Rastreabilidade
