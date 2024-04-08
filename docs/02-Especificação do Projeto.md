@@ -273,7 +273,7 @@ O aplicativo PesoPerfil é uma ferramenta projetada para ajudar usuários a calc
 
 >[!IMPORTANT]
 >
->Nesta tabela simplificada, cada linha representa um requisito específico do projeto "Calculadora de IMC", enquanto cada coluna representa um objetivo de negócio associado ao projeto. Os cruzamentos entre os requisitos e os objetivos indicam se há um relacionamento entre eles. Por exemplo, "Sim" indica que o requisito contribui para o alcance desse objetivo, enquanto "Não" indica que não há relação direta.
+>Nesta tabela simplificada, cada linha representa um requisito específico do projeto "Peso Perfil", enquanto cada coluna representa um objetivo de negócio associado ao projeto. Os cruzamentos entre os requisitos e os objetivos indicam se há um relacionamento entre eles. Por exemplo, "Sim" indica que o requisito contribui para o alcance desse objetivo, enquanto "Não" indica que não há relação direta.
 
 # Gerenciamento de Projeto
 
