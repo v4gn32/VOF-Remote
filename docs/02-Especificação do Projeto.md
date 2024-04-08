@@ -315,8 +315,12 @@ Com base nas áreas de conhecimento do PMBOK v6, vamos criar um esboço do Geren
 
 ## Gerenciamento de Tempo
 Diagrama de Rede Simplificado (Notação Francesa)
-O diagrama de rede simplificado é uma representação gráfica das atividades do projeto e suas inter-relações. Ele ajuda a visualizar a sequência das atividades e as dependências entre elas. No contexto do projeto "Calculadora de IMC", podemos representar as atividades principais e suas relações da seguinte forma:
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+O diagrama de rede simplificado é uma representação gráfica das atividades do projeto e suas inter-relações. Ele ajuda a visualizar a sequência das atividades e as dependências entre elas. No contexto do projeto "Peso Perfil", podemos representar as atividades principais e suas relações da seguinte forma:
+![Gráfico de Gantt](assets/Gantt.png)
+
+>[!IMPORTANT]
+>
+>Gráfico de Gantt é uma ferramenta visual que mostra o cronograma de atividades do projeto ao longo do tempo. Ele ajuda a identificar a sequência das atividades, os prazos e as sobreposições de atividades. Abaixo está um exemplo simplificado de um gráfico de Gantt para o projeto "Peso Perfil":
 
 ## Gerenciamento de Equipe
 
