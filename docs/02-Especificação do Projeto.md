@@ -263,21 +263,55 @@ O aplicativo PesoPerfil é uma ferramenta projetada para ajudar usuários a calc
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+| Requisito | Objetivo de Negócio 1: Fornecer uma ferramenta útil para monitoramento de saúde | Objetivo de Negócio 2: Aumentar o engajamento dos usuários com o aplicativo |
+| --------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+|  REQ001   | SIM                                                                             | NÃO                                                                         |
+|  REQ002   | SIM                                                                             | SIM                                                                         |
+|  REQ003   | SIM                                                                             | NÃO                                                                         |
+|  REQ004   | SIM                                                                             | SIM                                                                         |
+|  REQ005   | NÃO                                                                             | SIM                                                                         |
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+>[!IMPORTANT]
+>
+>Nesta tabela simplificada, cada linha representa um requisito específico do projeto "Calculadora de IMC", enquanto cada coluna representa um objetivo de negócio associado ao projeto. Os cruzamentos entre os requisitos e os objetivos indicam se há um relacionamento entre eles. Por exemplo, "Sim" indica que o requisito contribui para o alcance desse objetivo, enquanto "Não" indica que não há relação direta.
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+Com base nas áreas de conhecimento do PMBOK v6, vamos criar um esboço do Gerenciamento de Projeto para o projeto "Peso Perfil":
+
+1. **Integração:**
+- Desenvolver o plano de gerenciamento do projeto, integrando todas as áreas de conhecimento e definindo as principais entregas e marcos do projeto.
+
+2. **Escopo:**
+- Definir os requisitos do projeto, incluindo funcionalidades específicas da calculadora de IMC e os limites do que será entregue.
+
+3. **Cronograma (Tempo):**
+- Elaborar um cronograma detalhado, definindo as atividades, sequenciamento, estimativas de duração e desenvolvimento do cronograma do projeto.
+
+4. **Custos:**
+- Estimar os custos associados ao projeto, incluindo recursos necessários, custos de desenvolvimento e manutenção da aplicação da calculadora de IMC.
+
+5. **Qualidade:**
+- Estabelecer critérios de qualidade para o projeto, garantindo que a calculadora de IMC atenda aos padrões de precisão e usabilidade.
+
+6. **Recursos:**
+- Identificar, adquirir e gerenciar os recursos necessários para a execução do projeto, incluindo equipe, equipamentos e materiais.
+
+7. **Comunicações:**
+- Desenvolver um plano de comunicação para manter todas as partes interessadas informadas sobre o progresso do projeto, incluindo relatórios de status e reuniões regulares.
+
+8. **Riscos:**
+- Identificar os riscos potenciais associados ao projeto, avaliar sua probabilidade e impacto e desenvolver estratégias de mitigação e contingência.
+
+9. **Aquisições:**
+- Identificar as necessidades de aquisição de bens e serviços externos para o projeto, elaborar documentos de aquisição e gerenciar o processo de contratação.
+
+10. **Partes Interessadas:**
+- Identificar todas as partes interessadas relevantes para o projeto, entender suas necessidades e expectativas e gerenciar suas expectativas ao longo do ciclo de vida do projeto.
+
+>[!IMPORTANT]
+>
+>Essas áreas de conhecimento do Gerenciamento de Projetos interagem entre si e devem ser consideradas de forma holística durante todo o ciclo de vida do projeto. Alterações em uma área podem afetar outras áreas e é essencial manter uma abordagem integrada para o sucesso do projeto.
 
 ## Gerenciamento de Tempo
 
