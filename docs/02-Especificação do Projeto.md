@@ -326,7 +326,18 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 
 ## Gestão de Orçamento
+A gestão de orçamento para o projeto Peso Perfil envolve a alocação e monitoramento dos recursos financeiros necessários para o desenvolvimento e implementação da aplicação. Isso inclui identificar e estimar os custos associados aos recursos humanos, hardware, rede, software, serviços e outros elementos necessários para o projeto. Além disso, é essencial acompanhar regularmente os gastos do projeto em relação ao orçamento estabelecido, garantindo que os recursos sejam utilizados de forma eficiente e alinhados com os objetivos do projeto. A gestão de orçamento visa garantir que o projeto seja concluído dentro dos limites financeiros estabelecidos, evitando desvios significativos e garantindo uma alocação adequada de recursos para cada fase do projeto.
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+| Recurso           | Custo (R$)   | Observações                                            |   
+|-------------------|--------------|--------------------------------------------------------|
+| Recursos Humanos  | R$ 20.000,00 | Equipe de desenvolvimento e testes                     |
+| Hardware          | R$ 5.000,00  | Computadores, dispositivos móveis, etc.                |
+| Rede              | R$ 2.000,00  | Infraestrutura de rede interna                         |
+| Software          | R$ 3.000,00  | Ferramentas de desenvolvimento e software de terceiros |
+| Serviços          | R$ 8.000,00  | Serviços de consultoria, suporte técnico, etc.         |
+| Total             | R$ 38.000,00 |                                                        |
 
-![Orçamento](img/02-orcamento.png)
+>[!IMPORTANT]
+>
+>Nesta tabela, os custos estão apresentados em reais (R$). As observações fornecem informações adicionais sobre cada categoria de recurso. O total representa o custo geral estimado para o projeto.
+
