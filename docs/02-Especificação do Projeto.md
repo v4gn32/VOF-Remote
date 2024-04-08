@@ -279,35 +279,25 @@ O aplicativo PesoPerfil é uma ferramenta projetada para ajudar usuários a calc
 
 Com base nas áreas de conhecimento do PMBOK v6, vamos criar um esboço do Gerenciamento de Projeto para o projeto "Peso Perfil":
 
-1. **Integração:**
-- Desenvolver o plano de gerenciamento do projeto, integrando todas as áreas de conhecimento e definindo as principais entregas e marcos do projeto.
+1. **Integração:** Desenvolver o plano de gerenciamento do projeto, integrando todas as áreas de conhecimento e definindo as principais entregas e marcos do projeto.
 
-2. **Escopo:**
-- Definir os requisitos do projeto, incluindo funcionalidades específicas da calculadora de IMC e os limites do que será entregue.
+2. **Escopo:** Definir os requisitos do projeto, incluindo funcionalidades específicas da calculadora de IMC e os limites do que será entregue.
 
-3. **Cronograma (Tempo):**
-- Elaborar um cronograma detalhado, definindo as atividades, sequenciamento, estimativas de duração e desenvolvimento do cronograma do projeto.
+3. **Cronograma (Tempo):** Elaborar um cronograma detalhado, definindo as atividades, sequenciamento, estimativas de duração e desenvolvimento do cronograma do projeto.
 
-4. **Custos:**
-- Estimar os custos associados ao projeto, incluindo recursos necessários, custos de desenvolvimento e manutenção da aplicação da calculadora de IMC.
+4. **Custos:** Estimar os custos associados ao projeto, incluindo recursos necessários, custos de desenvolvimento e manutenção da aplicação da calculadora de IMC.
 
-5. **Qualidade:**
-- Estabelecer critérios de qualidade para o projeto, garantindo que a calculadora de IMC atenda aos padrões de precisão e usabilidade.
+5. **Qualidade:** Estabelecer critérios de qualidade para o projeto, garantindo que a calculadora de IMC atenda aos padrões de precisão e usabilidade.
 
-6. **Recursos:**
-- Identificar, adquirir e gerenciar os recursos necessários para a execução do projeto, incluindo equipe, equipamentos e materiais.
+6. **Recursos:** Identificar, adquirir e gerenciar os recursos necessários para a execução do projeto, incluindo equipe, equipamentos e materiais.
 
-7. **Comunicações:**
-- Desenvolver um plano de comunicação para manter todas as partes interessadas informadas sobre o progresso do projeto, incluindo relatórios de status e reuniões regulares.
+7. **Comunicações:** Desenvolver um plano de comunicação para manter todas as partes interessadas informadas sobre o progresso do projeto, incluindo relatórios de status e reuniões regulares.
 
-8. **Riscos:**
-- Identificar os riscos potenciais associados ao projeto, avaliar sua probabilidade e impacto e desenvolver estratégias de mitigação e contingência.
+8. **Riscos:** Identificar os riscos potenciais associados ao projeto, avaliar sua probabilidade e impacto e desenvolver estratégias de mitigação e contingência.
 
-9. **Aquisições:**
-- Identificar as necessidades de aquisição de bens e serviços externos para o projeto, elaborar documentos de aquisição e gerenciar o processo de contratação.
+9. **Aquisições:** Identificar as necessidades de aquisição de bens e serviços externos para o projeto, elaborar documentos de aquisição e gerenciar o processo de contratação.
 
-10. **Partes Interessadas:**
-- Identificar todas as partes interessadas relevantes para o projeto, entender suas necessidades e expectativas e gerenciar suas expectativas ao longo do ciclo de vida do projeto.
+10. **Partes Interessadas:** Identificar todas as partes interessadas relevantes para o projeto, entender suas necessidades e expectativas e gerenciar suas expectativas ao longo do ciclo de vida do projeto.
 
 >[!IMPORTANT]
 >
@@ -326,7 +316,14 @@ O diagrama de rede simplificado é uma representação gráfica das atividades d
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+| Atividade                  | Responsável            | Início Previsto | Término Previsto | Status       | Observações                                 |
+|----------------------------|------------------------|-----------------|------------------|--------------|---------------------------------------------|
+| Levantamento de Requisitos | Evandro                | 01/03/2024      | 10/03/2024       | Concluído    |                                             |
+| Design da Interface        | Pedro                  | 11/03/2024      | 20/03/2024       | Em andamento | Revisão do design realizada pela equipe     |
+| Desenvolvimento            | Lucas e Vagner         | 21/03/2024      | 05/04/2024       | Planejado    | Aguardando aprovação do design para iniciar |
+| Testes e Validação         | Bruno                  | 06/04/2024      | 15/04/2024       | Não iniciado | Aguardando finalização do desenvolvimento   |
+| Lançamento                 | Equipe de Desenvolvedo | 16/04/2024      | 16/04/2024       | Não iniciado | Aguardando conclusão dos testes e validação |
+
 
 ## Gestão de Orçamento
 
