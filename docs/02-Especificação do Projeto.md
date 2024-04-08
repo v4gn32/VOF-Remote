@@ -314,13 +314,8 @@ Com base nas áreas de conhecimento do PMBOK v6, vamos criar um esboço do Geren
 >Essas áreas de conhecimento do Gerenciamento de Projetos interagem entre si e devem ser consideradas de forma holística durante todo o ciclo de vida do projeto. Alterações em uma área podem afetar outras áreas e é essencial manter uma abordagem integrada para o sucesso do projeto.
 
 ## Gerenciamento de Tempo
-
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
-
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
+Diagrama de Rede Simplificado (Notação Francesa)
+O diagrama de rede simplificado é uma representação gráfica das atividades do projeto e suas inter-relações. Ele ajuda a visualizar a sequência das atividades e as dependências entre elas. No contexto do projeto "Calculadora de IMC", podemos representar as atividades principais e suas relações da seguinte forma:
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
