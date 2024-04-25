@@ -61,76 +61,97 @@
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+# Controle de Versão para o projeto Calculadora de IMC
 
-O projeto segue a seguinte convenção para o nome de branches:
+Neste projeto, utilizamos o Git como ferramenta de controle de versão, com o GitHub sendo utilizado para hospedagem do repositório.
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+## Convenções de Nomenclatura para Branches:
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+- **main:** Versão estável já testada do software.
+- **unstable:** Versão testada, mas ainda passível de problemas.
+- **testing:** Versão em testes antes de ser movida para a branch unstable.
+- **dev:** Branch de desenvolvimento ativa.
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+## Convenções de Nomenclatura para Tags:
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+- As tags são nomeadas de acordo com a versão estável do software.
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+## Convenções de Commits:
+
+- Commits devem ser descritivos e resolver um problema específico ou implementar uma funcionalidade.
+
+## Processo de Merges:
+
+- Os merges são realizados para incorporar as alterações de uma branch em outra, como quando uma funcionalidade é testada com sucesso e mesclada na branch unstable.
+
+## Gestão de Questões:
+
+- As questões são gerenciadas através de etiquetas como "bug", "enhancement" e "feature" para categorizar os problemas reportados.
+- A etiqueta "documentation" é utilizada para identificar melhorias ou adições à documentação do projeto.
+
+Para mais informações sobre boas práticas de Git e GitHub, consulte os links úteis disponíveis.
+
 
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
+### Metodologia Ágil:
 
-Apresente a divisão de papéis entre os membros do grupo.
+O projeto utiliza metodologias ágeis para o desenvolvimento, com o Scrum como base para a definição do processo de trabalho.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+#### Papéis:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+- **Scrum Master:** Evandro 
+- **Product Owner:** Pedro
+  - **Equipe de Desenvolvimento:**
+  - Vagner 
+  - Bruno
+  - Lucas 
+- **Equipe de Design:**
+  - Pedro 
+  - Lucas
+
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Claro, aqui está a descrição do processo de implementação do Scrum e o uso do recurso de gerenciamento de projeto oferecido pelo GitHub em formato Markdown:
+
+### Implementação do Scrum:
+
+O grupo optou por utilizar o framework Scrum para gerenciar o desenvolvimento do projeto. O Scrum é uma metodologia ágil que enfatiza a colaboração, a adaptabilidade e a entrega contínua de valor ao cliente. Ele divide o trabalho em ciclos iterativos chamados de Sprints, que geralmente têm duração de 2 a 4 semanas.
+
+Durante o início do projeto, foram realizadas reuniões de planejamento para definir o Product Backlog, uma lista de todas as funcionalidades desejadas para o produto. Essas funcionalidades foram priorizadas pelo Product Owner, responsável por representar os interesses dos stakeholders e definir o que é mais importante para o sucesso do projeto.
+
+Com base no Product Backlog, foram realizadas reuniões de Sprint Planning no início de cada Sprint para selecionar as funcionalidades a serem desenvolvidas durante aquele período. A equipe de desenvolvimento, composta por membros multidisciplinares, estimou o esforço necessário para implementar cada funcionalidade e se comprometeu a entregá-las até o final da Sprint.
+
+Durante a Sprint, a equipe realizou reuniões diárias de acompanhamento, conhecidas como Daily Standups, para compartilhar o progresso, identificar impedimentos e ajustar o plano conforme necessário. Ao final de cada Sprint, foi realizada uma revisão para demonstrar as funcionalidades concluídas aos stakeholders e uma retrospectiva para identificar pontos fortes e oportunidades de melhoria para as próximas Sprints.
+
+### Gerenciamento de Projeto no GitHub:
+
+Para acompanhar o andamento do projeto e o status das tarefas, o grupo utilizou o recurso de gerenciamento de projetos oferecido pelo GitHub. Isso permitiu que eles criassem e gerenciassem um quadro Kanban, onde as tarefas foram organizadas em colunas representando o fluxo de trabalho, como "To Do", "In Progress" e "Done".
+
+Cada funcionalidade do Product Backlog foi representada como uma "Issue" no GitHub, contendo uma descrição detalhada da tarefa, sua prioridade, estimativa de esforço e quaisquer dependências. As tarefas foram atribuídas aos membros da equipe, que as moviam pelo quadro Kanban conforme eram trabalhadas.
+
+Além disso, o GitHub também foi utilizado para controle de versão do código-fonte, facilitando a colaboração entre os membros da equipe e garantindo que todas as alterações fossem registradas e documentadas adequadamente.
+
+Essa abordagem permitiu que o grupo mantivesse um registro claro do progresso do projeto, identificasse facilmente quais tarefas estavam em andamento e quais haviam sido concluídas, e colaborasse de forma eficaz para alcançar os objetivos do sprint e do projeto como um todo.
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+### Ferramentas Empregadas:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+1. **Editor de Código (VS Code):**
+   - O Visual Studio Code foi escolhido como o editor de código principal devido à sua ampla gama de recursos, integração com sistemas de controle de versão como o Git e sua extensibilidade através de plugins. Ele oferece uma experiência de desenvolvimento rica e eficiente para os membros da equipe.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+2. **Ferramentas de Comunicação (Slack):**
+   - O Slack foi escolhido como a ferramenta principal de comunicação devido à sua facilidade de uso, capacidade de organizar conversas por canais e integração com outras ferramentas, como o GitHub. Ele permite uma comunicação eficaz entre os membros da equipe, facilitando a colaboração e a troca de informações.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+3. **Ferramentas de Desenho de Tela (Figma):**
+   - O Figma foi escolhido como a ferramenta principal para o desenho de telas devido à sua facilidade de uso, capacidade de colaboração em tempo real e ampla gama de recursos de design. Ele permite que os membros da equipe criem wireframes e protótipos de forma rápida e eficiente, ajudando a visualizar e comunicar as necessidades de design da solução.
+
+### Ferramentas de Gerenciamento:
+
+1. **Folga:**
+   - O Folga foi escolhido como uma ferramenta adicional de comunicação e colaboração, oferecendo recursos como chat em grupo, chamadas de vídeo e compartilhamento de arquivos. Ele complementa o Slack, fornecendo uma plataforma adicional para comunicação e colaboração entre os membros da equipe.
+
+2. **GitHub:**
+   - O GitHub foi escolhido como a plataforma principal para o gerenciamento de código-fonte, controle de versão e colaboração no desenvolvimento do projeto. Ele oferece recursos robustos para gerenciamento de problemas, controle de versão Git e integração com outras ferramentas, como o Slack, permitindo uma colaboração eficaz entre os membros da equipe no desenvolvimento do projeto.
