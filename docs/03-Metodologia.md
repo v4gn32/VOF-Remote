@@ -32,8 +32,32 @@
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+### Ambientes de Trabalho
+
+| Ambiente           | Plataforma               | Link de Acesso                                           |
+|--------------------|--------------------------|----------------------------------------------------------|
+| Desenvolvimento    | IDE (Integrated Development Environment) | [Visual Studio Code](https://code.visualstudio.com/)        |
+| Controle de Versão | Git                      | [GitHub](https://github.com/)                             |
+| Hospedagem Web     | Servidor Web (Apache, Nginx) | [Heroku](https://www.heroku.com/)                         |
+| Banco de Dados     | PostgreSQL               | [ElephantSQL](https://www.elephantsql.com/)               |
+| Testes de Integração | Cypress                | [Cypress Dashboard](https://dashboard.cypress.io/)        |
+| Testes de Unidade  | Jest                     | [Jest](https://jestjs.io/)                                |
+| Documentação       | Markdown                 | [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) |
+| Colaboração        | Comunicação Instantânea (Slack) | [Slack](https://slack.com/)                               |
+| Gestão de Projetos | Trello                   | [Trello](https://trello.com/)                             |
+
+### Ambientes e Frameworks para Desenvolvimento de Aplicações Móveis:
+
+| Ambiente           | Plataforma          | Link de Acesso                                    |
+|--------------------|---------------------|---------------------------------------------------|
+| Desenvolvimento    | IDE (Integrated Development Environment) | [Android Studio](https://developer.android.com/studio) |
+| Controle de Versão | Git                 | [GitHub](https://github.com/)                      |
+| Hospedagem Web     | Firebase Hosting    | [Firebase Console](https://console.firebase.google.com/) |
+| Banco de Dados     | Firebase Realtime Database | [Firebase Console](https://console.firebase.google.com/) |
+| Testes Automatizados | Espresso           | [Espresso Testing](https://developer.android.com/training/testing/espresso) |
+| Colaboração        | Comunicação Instantânea (Slack) | [Slack](https://slack.com/)                        |
+| Gestão de Projetos | Trello              | [Trello](https://trello.com/)                      |
+
 
 ## Controle de Versão
 
