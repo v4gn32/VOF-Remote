@@ -3,7 +3,32 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+**Ambiente de Trabalho:**
+
+**Ambientes de Desenvolvimento:**
+* Utilizaremos ambientes de desenvolvimento local para cada membro da equipe, configurados com as ferramentas necessárias para o desenvolvimento do projeto, incluindo IDEs, ferramentas de controle de versão e bancos de dados.
+* Para a integração e testes de sistema, será disponibilizado um ambiente de homologação compartilhado.
+
+**Gestão de Código Fonte:**
+* Utilizaremos o Git como sistema de controle de versão para gerenciar o código fonte do projeto.
+* O repositório Git será hospedado no GitHub, permitindo o versionamento do código, colaboração entre os membros da equipe e rastreabilidade das mudanças.
+
+**Processo de Desenvolvimento:**
+
+**Metodologia Ágil:**
+* Adotaremos uma abordagem ágil para o desenvolvimento da Calculadora de IMC, utilizando o framework Scrum.
+* As atividades serão organizadas em sprints de duas semanas, com reuniões diárias de acompanhamento do progresso e retrospectivas ao final de cada sprint.
+
+**Ferramenta de Gestão de Projetos:**
+* Utilizaremos a ferramenta Trello para gerenciar as atividades do projeto, organizar as histórias de usuário, definir o backlog do produto e acompanhar o progresso das tarefas.
+* Cada tarefa será representada por um cartão no Trello, contendo informações sobre sua descrição, responsável, prazo e status.
+
+**Gestão de Tempos:**
+* Para o registro e acompanhamento das horas trabalhadas em cada tarefa, utilizaremos a ferramenta Clockify.
+* Cada membro da equipe será responsável por registrar suas horas diariamente, associando-as às tarefas realizadas.
+
+**Considerações Finais:**
+* Esta metodologia proporciona um ambiente de trabalho estruturado e colaborativo para o desenvolvimento da Calculadora de IMC, permitindo uma gestão eficiente do código fonte, das atividades do projeto e do tempo dedicado a cada tarefa. O uso de práticas ágeis, aliado às ferramentas selecionadas, visa promover a transparência, a comunicação e a entrega contínua de valor ao cliente.
 
 ## Relação de Ambientes de Trabalho
 
