@@ -54,4 +54,6 @@ Aqui estão as funcionalidades detalhadas da aplicação de Calculadora de IMC:
 * Enviar notificações e lembretes para os usuários realizarem verificações regulares do IMC.
 * Permitir que os usuários definam suas próprias metas de saúde e recebam lembretes para acompanhá-las.
 
-Essas funcionalidades podem ser implementadas de forma progressiva, começando pelas principais e adicionando funcionalidades adicionais à medida que o projeto avança e são identificadas as necessidades dos usuários.
+>[!IMPORTANT]
+>
+>Essas funcionalidades podem ser implementadas de forma progressiva, começando pelas principais e adicionando funcionalidades adicionais à medida que o projeto avança e são identificadas as necessidades dos usuários.
