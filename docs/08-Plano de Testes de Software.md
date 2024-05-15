@@ -1,6 +1,7 @@
 # Plano de Testes de Software
 
 Planos de teste de Software
+
 1 – Teste de cadastro
 Ao realizar o cadastro na página de cadastros com as seguintes informações requeridas: Usuário; E-mail e senha todos esses dados devem ser validados então deve ser criado no bando de dados um registro para esse usuário aonde cada coluna consiste em uma das informações preenchidas e esse usuário deve ter um Id único de identificação no banco de dados. A função de Criação de usuários seria a responsável por esse fluxo.
 
