@@ -2,7 +2,7 @@ import * as SQLite from 'expo-sqlite';
 
 const db = SQLite.openDatabase('app.db');
 
-export const createTable = () => {
+export const createTables = () => {
   db.transaction(tx => {
     tx.executeSql(`
       CREATE TABLE IF NOT EXISTS Usuario (
@@ -16,6 +16,17 @@ export const createTable = () => {
         Peso REAL CHECK (Peso > 0)
       );
     `);
+
+    tx.executeSql(
+      `CREATE TABLE IF NOT EXISTS Historico (
+        HistoricoID INTEGER PRIMARY KEY AUTOINCREMENT,
+        UsuarioID INTEGER,
+        DataRegistro DATE NOT NULL,
+        Peso FLOAT CHECK (Peso > 0),
+        IMC FLOAT CHECK (IMC > 0),
+        FOREIGN KEY (UsuarioID) REFERENCES Usuario(UsuarioID) ON DELETE CASCADE
+      );`,
+    );
   });
 };
 

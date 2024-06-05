@@ -1,7 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React, { useEffect } from 'react';
-import { createTable } from './src/database';
 import Cadastro from './src/pages/Cadastro';
 import Home from './src/pages/Home';
 import Login from './src/pages/Login';
@@ -11,7 +10,7 @@ const Stack = createStackNavigator();
 
 const App = () => {
   useEffect(() => {
-    createTable();
+    createTables();
   }, []);
 
   return (
