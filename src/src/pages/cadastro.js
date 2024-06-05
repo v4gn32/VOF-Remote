@@ -1,12 +1,20 @@
-import React, { useState } from 'react';
+// src/pages/Cadastro.js
 import { useNavigation } from '@react-navigation/native';
-import { SafeAreaView, View, Text, StyleSheet, Image, TextInput, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
+import { Alert, KeyboardAvoidingView, Platform, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { getDb } from '../database';
+
+const db = getDb();
 
 export default function Cadastro() {
   const [form, setForm] = useState({
     nome: '',
     email: '',
-    password: '',
+    senha: '',
+    altura: '',
+    idade: '',
+    sexo: '',
+    peso: '',
   });
 
   const navigation = useNavigation();
@@ -16,76 +24,146 @@ export default function Cadastro() {
   };
 
   const handleSubmit = () => {
-    
-    console.log('Formulário enviado:', form);
-    
-    navigateToLogin();
+    const { nome, email, senha, altura, idade, sexo, peso } = form;
+
+    if (!nome || !email || !senha || !altura || !idade || !sexo || !peso) {
+      Alert.alert('Erro', 'Todos os campos são obrigatórios.');
+      return;
+    }
+
+    db.transaction(tx => {
+      tx.executeSql(
+        'INSERT INTO Usuario (Nome, Email, Senha, Altura, Idade, Sexo, Peso) VALUES (?, ?, ?, ?, ?, ?, ?)',
+        [nome, email, senha, altura, idade, sexo, peso],
+        (_, result) => {
+          if (result.rowsAffected > 0) {
+            Alert.alert('Sucesso', 'Usuário cadastrado com sucesso.');
+            navigateToLogin();
+          } else {
+            Alert.alert('Erro', 'Erro ao cadastrar o usuário.');
+          }
+        },
+        (tx, error) => {
+          Alert.alert('Erro', `Erro ao cadastrar o usuário: ${error.message}`);
+        }
+      );
+    });
   };
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#eBecf4' }}>
-      <View style={styles.container}>
-        <View style={styles.header}>
-          <Image
-            source={require('../../assets/img/logoLogin.png')}
-            style={styles.logoCadastro}
-            alt="Logo"
-          />
-          <Text style={styles.title}>Crie sua Conta</Text>
-        </View>
-
-        <View style={[styles.form, { justifyContent: 'space-between' }]}>
-          <View style={styles.input}>
-            <Text style={styles.inputLabel}>Nome</Text>
-            <TextInput
-              autoCapitalize="words"
-              style={styles.inputControl}
-              placeholder="Digite seu nome aqui"
-              placeholderTextColor="#6b7280"
-              value={form.nome}
-              onChangeText={(nome) => setForm({ ...form, nome })}
-            />
-          </View>
-
-          <View style={styles.input}>
-            <Text style={styles.inputLabel}>Seu Email</Text>
-            <TextInput
-              autoCapitalize="none"
-              autoCorrect={false}
-              keyboardType="email-address"
-              style={styles.inputControl}
-              placeholder="Digite seu email aqui"
-              placeholderTextColor="#6b7280"
-              value={form.email}
-              onChangeText={(email) => setForm({ ...form, email })}
-            />
-          </View>
-
-          <View style={styles.input}>
-            <Text style={styles.inputLabel}>Sua Senha</Text>
-            <TextInput
-              secureTextEntry
-              style={styles.inputControl}
-              placeholder="*********"
-              placeholderTextColor="#6b7280"
-              value={form.password}
-              onChangeText={(password) => setForm({ ...form, password })}
-            />
-          </View>
-        </View>
-
-        <View style={styles.formAction}>
-          <TouchableOpacity onPress={handleSubmit}>
-            <View style={styles.btn}>
-              <Text style={styles.btnText}>Cadastrar</Text>
+      <KeyboardAvoidingView
+        behavior={Platform.OS === "ios" ? "padding" : "height"}
+        style={{ flex: 1 }}
+      >
+        <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+          <View style={styles.container}>
+            <View style={styles.header}>
+              <Text style={styles.title}>Crie sua Conta</Text>
             </View>
-          </TouchableOpacity>
 
-          <TouchableOpacity onPress={navigateToLogin}>
-            <Text style={styles.formFooter}>Já tenho uma conta</Text>
-          </TouchableOpacity>
-        </View>
-      </View>
+            <View style={styles.form}>
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Nome</Text>
+                <TextInput
+                  autoCapitalize="words"
+                  style={styles.inputControl}
+                  placeholder="Digite seu nome aqui"
+                  placeholderTextColor="#6b7280"
+                  value={form.nome}
+                  onChangeText={(nome) => setForm({ ...form, nome })}
+                />
+              </View>
+
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Seu Email</Text>
+                <TextInput
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  keyboardType="email-address"
+                  style={styles.inputControl}
+                  placeholder="Digite seu email aqui"
+                  placeholderTextColor="#6b7280"
+                  value={form.email}
+                  onChangeText={(email) => setForm({ ...form, email })}
+                />
+              </View>
+
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Sua Senha</Text>
+                <TextInput
+                  secureTextEntry
+                  style={styles.inputControl}
+                  placeholder="*********"
+                  placeholderTextColor="#6b7280"
+                  value={form.senha}
+                  onChangeText={(senha) => setForm({ ...form, senha })}
+                />
+              </View>
+
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Altura (cm)</Text>
+                <TextInput
+                  keyboardType="numeric"
+                  style={styles.inputControl}
+                  placeholder="Digite sua altura aqui"
+                  placeholderTextColor="#6b7280"
+                  value={form.altura}
+                  onChangeText={(altura) => setForm({ ...form, altura })}
+                />
+              </View>
+
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Idade</Text>
+                <TextInput
+                  keyboardType="numeric"
+                  style={styles.inputControl}
+                  placeholder="Digite sua idade aqui"
+                  placeholderTextColor="#6b7280"
+                  value={form.idade}
+                  onChangeText={(idade) => setForm({ ...form, idade })}
+                />
+              </View>
+
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Sexo (M/F/O)</Text>
+                <TextInput
+                  autoCapitalize="characters"
+                  style={styles.inputControl}
+                  placeholder="Digite M, F ou O"
+                  placeholderTextColor="#6b7280"
+                  value={form.sexo}
+                  onChangeText={(sexo) => setForm({ ...form, sexo })}
+                />
+              </View>
+
+              <View style={styles.input}>
+                <Text style={styles.inputLabel}>Peso (kg)</Text>
+                <TextInput
+                  keyboardType="numeric"
+                  style={styles.inputControl}
+                  placeholder="Digite seu peso aqui"
+                  placeholderTextColor="#6b7280"
+                  value={form.peso}
+                  onChangeText={(peso) => setForm({ ...form, peso })}
+                />
+              </View>
+            </View>
+
+            <View style={styles.formAction}>
+              <TouchableOpacity onPress={handleSubmit}>
+                <View style={styles.btn}>
+                  <Text style={styles.btnText}>Cadastrar</Text>
+                </View>
+              </TouchableOpacity>
+
+              <TouchableOpacity onPress={navigateToLogin}>
+                <Text style={styles.formFooter}>Já tenho uma conta</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </ScrollView>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
@@ -94,13 +172,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 24,
-  },
-
-  logoCadastro: {
-    marginTop: 3,
-    width: 170,
-    height: 160,
-    alignSelf: 'center',
   },
 
   title: {
@@ -119,6 +190,7 @@ const styles = StyleSheet.create({
   input: {
     marginBottom: 20,
   },
+
   inputLabel: {
     fontSize: 15,
     fontWeight: '700',
@@ -140,8 +212,8 @@ const styles = StyleSheet.create({
 
   form: {
     marginBottom: 24,
-    flex: 1,
   },
+
   formAction: {
     marginVertical: 24,
   },
