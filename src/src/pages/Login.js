@@ -1,14 +1,13 @@
-import React from 'react';
-import { useState } from 'react';
-import { useNavigation } from '@react-navigation/native'; 
+import { useNavigation } from '@react-navigation/native';
+import React, { useState } from 'react';
 import {
-  SafeAreaView,
-  View,
-  Text,
-  StyleSheet,
   Image,
+  SafeAreaView,
+  StyleSheet,
+  Text,
   TextInput,
-  TouchableOpacity, 
+  TouchableOpacity,
+  View,
 } from 'react-native';
 
 export default function Login() {
@@ -17,14 +16,14 @@ export default function Login() {
     password: '',
   });
 
-  const navigation = useNavigation(); 
+  const navigation = useNavigation();
 
   const navigateToProfile = () => {
-    navigation.navigate('Perfil'); 
+    navigation.navigate('Perfil');
   };
 
   const navigateToRegister = () => {
-    navigation.navigate('Cadastro'); 
+    navigation.navigate('Cadastro');
   };
 
   return (
@@ -113,7 +112,7 @@ const styles = StyleSheet.create({
   },
 
   input: {
-    marginBottom: 15, 
+    marginBottom: 15,
   },
   inputLabel: {
     fontSize: 15,

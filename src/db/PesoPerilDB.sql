@@ -13,7 +13,6 @@ CREATE TABLE Usuario (
     Altura FLOAT CHECK (Altura > 0),
     Idade INT CHECK (Idade > 0),
     Sexo CHAR(1) CHECK (Sexo IN ('M', 'F', 'O')), -- M = Masculino, F = Feminino, O = Outro
-    NivelAtividade VARCHAR(50) CHECK (NivelAtividade IN ('baixo', 'medio', 'alto'))
 );
 
 -- Criação da tabela 'Historico'
