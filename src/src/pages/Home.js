@@ -1,46 +1,65 @@
+import React from 'react';
+import { SafeAreaView, Text, Card, Button, StyleSheet, StatusBar, Dimensions } from 'react-native';
 
-import React, { useEffect } from 'react';
-import {View, Image, StyleSheet} from 'react-native'
-import { useNavigation } from '@react-navigation/native';
+import { LineChart } from 'react-native-chart-kit';
 
-const Home = () => {
+import Container from '../components/Container';
+import Header from '../components/Header';
+import Body from '../components/Body';
 
-  const navigation = useNavigation();
+const screenWidth = Dimensions.get("window").width;
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      navigation.navigate('Login');
-    }, 5000); 
+const chartConfig = {
+  backgroundGradientFrom: "#0a5058",
+  backgroundGradientFromOpacity: 0,
+  backgroundGradientTo: "#5cddac",
+  backgroundGradientToOpacity: 0.5,
+  color: (opacity = 1) => `rgba(5, 39, 53, ${opacity})`,
+  strokeWidth: 2,
+  barPercentage: 0.5,
+  useShadowColorFromDataset: false
+};
 
-    return () => clearTimeout(timer); 
-  }, [navigation]);
+const data = {
+  labels: ["", "", "", "", "", ""],
+  datasets: [
+    {
+      data: [20, 45, 28, 80, 99, 43],
+      color: (opacity = 1) => `rgba(249, 105, 0, ${opacity})`,
+      strokeWidth: 2
+    }
+  ],
+  legend: ["Peso (kg)"]
+};
 
+const Home = ({ navigation }) => {
   return (
-    <View style={styles.container}>
-      <Image
-        source={require("../../assets/img/logo.png")}
-        style={styles.logo}
-      />
-    </View>
+    <Container>
+      <Header title={'Home'}></Header>
+      <Body>
+        <Text>Seu IMC mais recente é 35.86 --> 27/05/2024</Text>
+        <Text>Obesidade</Text>
+        <Text>Seu peso ideal é 63.29 kg</Text>
+        <LineChart
+          data={data}
+          width={screenWidth}
+          height={256}
+          chartConfig={chartConfig}
+          bezier
+          yAxisLabel=""
+          yAxisSuffix=" kg"
+          withInnerLines={false}
+        />    
+      </Body>
+      {/*
+      <Button title="View Measurements" onPress={() => navigation.navigate('Measurements')} />
+      */}
+    </Container>
   );
-}
-
-export default Home;
+};
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: "#F3F3FF",
-      justifyContent: 'center',
-      alignItems: 'center'
-    },
 
-    logo: {
-      marginBottom: 10,
-      marginTop: 30,
-      marginRight: 35,
-      width: 290,
-      height: 500
-    }
+});
 
-  })
+export default Home;

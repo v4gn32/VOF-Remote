@@ -1,27 +1,17 @@
+import React, { useState, useEffect } from 'react';
+import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import React, { useEffect } from 'react';
-import Cadastro from './src/pages/Cadastro';
-import Home from './src/pages/Home';
-import Login from './src/pages/Login';
-import Perfil from './src/pages/Perfil';
-
-const Stack = createStackNavigator();
+import UserProvider from './src/contexts/UserContext';
+import Route from './src/navigations/Route';
 
 const App = () => {
-  useEffect(() => {
-    createTables();
-  }, []);
-
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
-        <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
-        <Stack.Screen name="Perfil" component={Perfil} options={{ headerShown: false }} />
-        <Stack.Screen name="Cadastro" component={Cadastro} options={{ headerShown: false }} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <UserProvider>
+      <NavigationContainer>
+        <StatusBar backgroundColor="#38A69D" barStyle="light-content" />
+        <Route />
+      </NavigationContainer>
+    </UserProvider>
   );
 };
 
