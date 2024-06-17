@@ -11,7 +11,7 @@ export default function UserProvider({children}){
   return(
     <UserContext.Provider
       value={
-        {signed, setSigned, name, setName}
+        {signed, setSigned, name, setName, altura, setAltura, sexoBiologico, setSexoBiologico}
       }
     >
       {children}
@@ -24,7 +24,7 @@ export default function UserProvider({children}){
 //hook
 export function useUser(){
     const context = useContext(UserContext);
-    const {signed, setSigned, name, setName} = context;
+    const {signed, setSigned, name, setName, altura, setAltura, sexoBiologico, setSexoBiologico} = context;
 
-    return {signed, setSigned, name, setName};
+    return {signed, setSigned, name, setName, altura, setAltura, sexoBiologico, setSexoBiologico};
 }

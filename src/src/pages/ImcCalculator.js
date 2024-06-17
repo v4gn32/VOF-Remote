@@ -104,12 +104,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
   },
+  /*
   input: {
     height: 40,
     marginVertical: 12,
     borderWidth: 1,
     padding: 10,
-  },
+  },*/
   containerRadio: {
     flexDirection: 'row',
     marginVertical: 12,

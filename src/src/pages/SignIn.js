@@ -1,15 +1,39 @@
 import React, { useState }  from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, Button, TextInput } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, Button, TextInput, Alert } from 'react-native';
 
 import * as Animatable from 'react-native-animatable';
 import {useUser} from '../contexts/UserContext';
 
+import {login} from '../services/auth.services';
+
 
 const SignIn = ({ navigation }) => {
 
-  const {setSigned} = useUser();
+  const {setSigned, setName, setAltura, setSexoBiologico} = useUser();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const handleLogin = () => {
+    login({
+
+      email: email,
+      password: password
+
+    }).then( res => {
+      console.log("resposta: " + res);
+
+      if(res && res.user){
+        setSigned(true);
+        setName(res.user.name);
+        setAltura(res.user.altura);
+        setSexoBiologico(res.user.setSexoBiologico)
+
+      }else{
+         Alert.alert('Atenção', 'Usuário ou senha inválidos!');
+      }
+    });
+    
+  }
 
   return (
     <View style={styles.container}>
@@ -41,7 +65,7 @@ const SignIn = ({ navigation }) => {
 
         <TouchableOpacity 
           style={styles.button}
-          onPress={() => setSigned(true)}
+          onPress={handleLogin}
           >
           <Text style={styles.buttonText}>Acessar</Text>
         </TouchableOpacity>

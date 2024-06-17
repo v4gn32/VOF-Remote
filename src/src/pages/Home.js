@@ -7,6 +7,8 @@ import Container from '../components/Container';
 import Header from '../components/Header';
 import Body from '../components/Body';
 
+import {useUser} from '../contexts/UserContext';
+
 const screenWidth = Dimensions.get("window").width;
 
 const chartConfig = {
@@ -33,12 +35,16 @@ const data = {
 };
 
 const Home = ({ navigation }) => {
+
+  const {name, altura, sexoBiologico} = useUser();
+
   return (
     <Container>
-      <Header title={'Home'}></Header>
+      <Header title={'Olá ' + name}></Header>
       <Body>
         <Text>Seu IMC mais recente é 35.86 --> 27/05/2024</Text>
         <Text>Obesidade</Text>
+        <Text>Altura : {altura} Cm</Text>
         <Text>Seu peso ideal é 63.29 kg</Text>
         <LineChart
           data={data}
