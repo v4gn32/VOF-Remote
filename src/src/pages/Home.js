@@ -1,11 +1,12 @@
 import React from 'react';
-import { SafeAreaView, Text, Card, Button, StyleSheet, StatusBar, Dimensions } from 'react-native';
-
+import { SafeAreaView, StyleSheet, StatusBar, Dimensions, ScrollView } from 'react-native';
+import { Avatar, Button, Card, Text } from 'react-native-paper';
 import { LineChart } from 'react-native-chart-kit';
 
 import Container from '../components/Container';
 import Header from '../components/Header';
 import Body from '../components/Body';
+import MyCard from '../components/MyCard';
 
 import {useUser} from '../contexts/UserContext';
 
@@ -17,7 +18,7 @@ const chartConfig = {
   backgroundGradientTo: "#5cddac",
   backgroundGradientToOpacity: 0.5,
   color: (opacity = 1) => `rgba(5, 39, 53, ${opacity})`,
-  strokeWidth: 2,
+  strokeWidth: 8,
   barPercentage: 0.5,
   useShadowColorFromDataset: false
 };
@@ -26,7 +27,7 @@ const data = {
   labels: ["", "", "", "", "", ""],
   datasets: [
     {
-      data: [20, 45, 28, 80, 99, 43],
+      data: [101, 96, 100, 79, 75, 71, 79, 75, 71],
       color: (opacity = 1) => `rgba(249, 105, 0, ${opacity})`,
       strokeWidth: 2
     }
@@ -42,20 +43,34 @@ const Home = ({ navigation }) => {
     <Container>
       <Header title={'Olá ' + name}></Header>
       <Body>
-        <Text>Seu IMC mais recente é 35.86 --> 27/05/2024</Text>
-        <Text>Obesidade</Text>
-        <Text>Altura : {altura} Cm</Text>
-        <Text>Seu peso ideal é 63.29 kg</Text>
-        <LineChart
-          data={data}
-          width={screenWidth}
-          height={256}
-          chartConfig={chartConfig}
-          bezier
-          yAxisLabel=""
-          yAxisSuffix=" kg"
-          withInnerLines={false}
-        />    
+        <MyCard
+          title="Seu IMC mais recente é 32,5 "
+          subtitle="Índice de Massa Corporal" 
+          leftContent={props => <Avatar.Icon {...props} icon="heart" />}
+          actions={<Text variant="bodyMedium">Obesidade</Text>}
+        >
+          <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
+        </MyCard>
+        <MyCard
+          title="Seu Peso mais recente é 77,6 kg"
+          subtitle="Histórico de Peso - 27/05/2024"
+          actions={<Text variant="bodyMedium">Monitoramento do peso corporal ao longo do tempo</Text>}
+        >
+          <LineChart
+            data={data}
+            width={screenWidth - 40}
+            height={150}
+            chartConfig={chartConfig}
+            bezier
+            yAxisLabel=""
+            yAxisSuffix=" kg"
+            withInnerLines={false}
+            style={{
+              marginVertical: 8,
+              borderRadius: 12
+            }}
+          />
+        </MyCard>    
       </Body>
       {/*
       <Button title="View Measurements" onPress={() => navigation.navigate('Measurements')} />

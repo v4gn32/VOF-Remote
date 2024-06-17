@@ -7,10 +7,10 @@ import { calcularIMC, calcularPesoIdeal, getIMCCategoria } from '../imcUtils';
 import Input from '../components/Input';
 
 const ImcCalculator = ({ navigation }) => {
-  const [idade, setIdade] = useState('');
-  const [sexo, setSexo] = useState('');
-  const [peso, setPeso] = useState('');
-  const [altura, setAltura] = useState('');
+  const [idade, setIdade] = useState(30);
+  const [sexo, setSexo] = useState('M');
+  const [peso, setPeso] = useState(65);
+  const [altura, setAltura] = useState(170);
   const [imc, setImc] = useState(null);
   const [mensagem, setMensagem] = useState('');
   const [pesoIdeal, setPesoIdeal] = useState(null);

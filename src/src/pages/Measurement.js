@@ -22,7 +22,7 @@ const Measurement = ({ route  }) => {
 
   const [id, setId] = useState(null);
   const [data, setData] = useState(moment(new Date()).format('DD/MM/YYYY'));
-  const [peso, setPeso] = useState(null);
+  const [peso, setPeso] = useState(0);
 
   useEffect(() => {
     if (item) {
@@ -107,7 +107,7 @@ const Measurement = ({ route  }) => {
         <Input
           label="Peso"
           value={peso}
-          onChangeText={(text) => setPeso(text)}
+          onChangeText={setPeso}
           left={<TextInput.Icon name="weight-kilogram"/>}
         />
 
