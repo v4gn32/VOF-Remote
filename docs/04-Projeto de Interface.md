@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/111026383/21ac05f2-8174-4e90-8ee5-07abfa64faac)
+<img src="/docs/img/Projeto de Interfaces.jpg">
 
 ## Wireframes
 
