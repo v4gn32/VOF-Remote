@@ -9,7 +9,7 @@ import {login} from '../services/auth.services';
 
 const SignIn = ({ navigation }) => {
 
-  const {setSigned, setName, setAltura, setSexoBiologico} = useUser();
+  const {setSigned, setName, setAltura, setSexoBiologico, setDataNascimento} = useUser();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -26,8 +26,8 @@ const SignIn = ({ navigation }) => {
         setSigned(true);
         setName(res.user.name);
         setAltura(res.user.altura);
-        setSexoBiologico(res.user.setSexoBiologico)
-
+        setSexoBiologico(res.user.sexoBiologico)
+        setDataNascimento(res.user.dataNascimento)
       }else{
          Alert.alert('Atenção', 'Usuário ou senha inválidos!');
       }
