@@ -2,7 +2,7 @@
 
 - `Analise e Desenvolvimento de Sistemas 2024`
 
-- `Projeto Turma 5`
+- `Projeto - Turma 5`
 
 - `Eixo 3`
 
