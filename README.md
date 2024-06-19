@@ -12,7 +12,6 @@ O projeto "Peso Perfil" se propõe a desenvolver um aplicativo móvel simples e 
 
 * Adriel Agnes Costa Bosco
 * Evandro Kumasaka
-* Juscelino Junior Antunes Silva
 * Lucas Melo de Carvalho
 * Lucas Oliveira Gonçalves
 * Vagner de Oliveira Florencio
