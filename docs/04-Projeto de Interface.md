@@ -1,11 +1,6 @@
-fsfa
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Para criarmos o projeto de interface para o sistema "Peso Perfil", vamos delinear a visão geral da interação do usuário por meio das telas do sistema e um protótipo interativo dos wireframes. Abaixo está a descrição detalhada das telas e suas funcionalidades.
 
 ## Diagrama de Fluxo
 
@@ -13,11 +8,12 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Wireframes
 
-1- Tela inicial
+1. Tela de Início <br>
+Objetivo: Recepcionar o usuário e direcioná-lo para login ou cadastro. <br>
 
-Ao abrir o aplicativo YMC, os usuários são recebidos com uma tela inicial de carregamento com o logo e o slogan do aplicativo.
+Componentes: Logo do aplicativo e Texto de boas-vindas
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/6f6df9c5-41b6-4912-8fc7-3ed67f92bb59)
+<img src="/docs/img/00 - Inicio.png">
 
 2- Tela de login
 
