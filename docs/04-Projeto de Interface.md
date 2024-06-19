@@ -1,46 +1,130 @@
-fsfa
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Para criarmos o projeto de interface para o sistema "Peso Perfil", vamos delinear a visão geral da interação do usuário por meio das telas do sistema e um protótipo interativo dos wireframes. Abaixo está a descrição detalhada das telas e suas funcionalidades.
 
 ## Diagrama de Fluxo
 
-![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/111026383/21ac05f2-8174-4e90-8ee5-07abfa64faac)
+<img src="/docs/img/Projeto de Interfaces.jpg">
 
-## Wireframes
+## 1. Tela de Início
 
-1- Tela inicial
+**Objetivo:**
+Recepcionar o usuário e direcioná-lo para login ou cadastro.
 
-Ao abrir o aplicativo YMC, os usuários são recebidos com uma tela inicial de carregamento com o logo e o slogan do aplicativo.
+**Componentes:**
+- Logo do aplicativo
+- Botões "Entrar" e "Cadastrar"
+- Texto de boas-vindas
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/6f6df9c5-41b6-4912-8fc7-3ed67f92bb59)
+**Wireframe:**
 
-2- Tela de login
+<div align="left">
+<img src="/docs/img/00 - Inicio.png" width=30% height=30%>
+</div>
 
-A tela de login do YMC solicita que os usuários forneçam suas credenciais para acessar informações pessoais, como histórico de medidas e metas de saúde, garantindo assim a privacidade e segurança de seus dados.
+## 2. Tela de Login
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/1ccfdafa-7dbf-496c-9346-e5dc3d69d729)
+**Objetivo:**
+Permitir que o usuário existente faça login no sistema.
 
-3- Tela de cadastro
+**Componentes:**
+- Campos para Email e Senha
+- Botão "Acessar"
+- Link para a tela de cadastro
 
+**Wireframe:**
 
-A tela de cadastro do YMC é onde os usuários podem criar uma conta para acessar os recursos personalizados do aplicativo. Nesta tela, os usuários são solicitados a fornecer informações pessoais, como nome, email e senha. A tela de cadastro é projetada para ser intuitiva e fácil de usar, garantindo uma experiência de usuário positiva desde o início.
+<div align="left">
+<img src="/docs/img/01 - Login.png" width=30% height=30%>
+</div>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/046444c0-675c-4edb-b9c5-2a8145b86123)
+## 3. Tela de Cadastro
 
-4- Tela do perfil
+**Objetivo:**
+Permitir que novos usuários se cadastrem no sistema.
 
-A tela de perfil do YMC permite que os usuários visualizem e editem suas informações pessoais, como altura, peso, idade e sexo, além de configurar preferências adicionais relacionadas à saúde e objetivos de bem-estar.
+**Componentes:**
+- Campos para Nome, Email e Senha
+- Opção de Gênero
+- Campo para data de nascimento
+- Campo para inserir altura
+- Botão "Registrar"
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/4834278c-93d7-4e5b-9f76-a33702320bde)
+**Wireframe:**
 
-5- Telas da calculadora
+<div align="left">
+<img src="/docs/img/02 - Cadastro.png" width=30% height=30%>
+</div>
 
-As telas da calculadora do YMC é onde os usuários inserem seu peso e altura para calcular instantaneamente seu Índice de Massa Corporal, oferecendo uma avaliação rápida e conveniente de sua saúde com base nessas medidas.
+## 4. Tela Home
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/133606402/efc93199-0612-4c15-b46f-56ea2d320159)
+**Objetivo:**
+Página principal após o login, apresentando o resumo do perfil e funcionalidades principais.
+
+**Componentes:**
+- Boas-vindas ao usuário
+- Botões para "Pesagem", "Medição", "Editar Perfil" e "Calculadora de IMC"
+- Resumo do perfil (nome, último peso, último IMC)
+
+**Wireframe:**
+<div align="left">
+<img src="/docs/img/03 - Home.png" width=30% height=30%>
+</div>
+
+## 5. Tela com Pesagem e Editar e Alterar Peso
+
+**Objetivo:**
+Permitir que o usuário registre um novo peso ou edite pesos anteriores.
+
+**Componentes:**
+- Campo para inserir o novo peso
+- Lista de pesagens anteriores com opção de editar
+- Botão "Salvar"
+
+**Wireframe:**
+<div align="left">
+<img src="/docs/img/05 - Alterar ou Excluir Peso.png" width=30% height=30%>
+</div>
+
+## 6. Tela de Medição
+
+**Objetivo:**
+Permitir que o usuário consultar seus registros de medidas IMCs.
+
+**Componentes:**
+- Campos para peso aferido e data
+
+**Wireframe:**
+<div align="left">
+<img src="/docs/img/06 - Medição.png" width=30% height=30%>
+</div>
+
+## 7. Tela de Editar Perfil
+
+**Objetivo:**
+Permitir que o usuário edite informações pessoais.
+
+**Componentes:**
+- Campos para gênero, data de nascimento, altura e meta peso
+- Botão "Salvar"
+
+**Wireframe:**
+<div align="left">
+<img src="/docs/img/07 - Edição de Perfil.png" width=30% height=30%>
+</div>
+
+## 8. Calculadora de IMC
+
+**Objetivo:**
+Permitir que o usuário calcule o IMC com base em seu peso e altura.
+
+**Componentes:**
+- Campos para peso e altura
+- Botão "Calcular"
+- Resultado do IMC e classificação
+
+**Wireframe:**
+<div align="left">
+<img src="/docs/img/08 - Calculadora IMC.png" width=30% height=30%>
+</div>
 
