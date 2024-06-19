@@ -9,6 +9,7 @@ import Header from '../components/Header';
 import Body from '../components/Body';
 import Input from '../components/Input';
 
+import {useUser} from '../contexts/UserContext';
 import { useNavigation } from '@react-navigation/native';
 
 const Profile = ({ route }) => {
@@ -17,9 +18,10 @@ const Profile = ({ route }) => {
   const [date, setDate] = useState(new Date()); 
   const [show, setShow] = useState(false);
 
-  const [sexoBiologico, setSexoBiologico] = useState('');
-  const [dataNascimento, setDataNascimento] = useState(moment(new Date()).format('DD/MM/YYYY'));
-  const [altura, setAltura] = useState('');
+  const {name, setName, altura, setAltura, dataNascimento, setDataNascimento, sexoBiologico, setSexoBiologico} = useUser();
+
+  // const [dataNascimento, setDataNascimento] = useState(moment(new Date()).format('DD/MM/YYYY'));
+  
   const [pesoMeta, setPesoMeta] = useState(null);
   
   const handleSalvar = () => {
@@ -28,7 +30,7 @@ const Profile = ({ route }) => {
 
   return (
     <Container>
-      <Header title={'Perfil'}>
+      <Header title={'Perfil: ' + name}>
         <Appbar.Action icon="check" onPress={handleSalvar} />
       </Header>
       <Body>
@@ -39,7 +41,7 @@ const Profile = ({ route }) => {
             <RadioButton
               value="first"
               status={sexoBiologico === 'M' ? 'checked' : 'unchecked'}
-              color={'red'}
+              color={'blue'}
               onPress={() => setSexoBiologico('M')}
             />
             <Text>Masculino</Text>
@@ -49,7 +51,7 @@ const Profile = ({ route }) => {
             <RadioButton
               value="first"
               status={sexoBiologico === 'F' ? 'checked' : 'unchecked'}
-              color={'green'}
+              color={'blue'}
               onPress={() => setSexoBiologico('F')}
             />
             <Text>Feminino</Text>
