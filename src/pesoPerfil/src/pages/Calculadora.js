@@ -1,4 +1,4 @@
-// src/pages/Calculadora.js
+
 import { useNavigation, useRoute } from '@react-navigation/native';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -9,9 +9,9 @@ const Calculadora = () => {
   const { altura, peso } = route.params;
 
   const calculateIMC = (peso, altura) => {
-    const alturaEmMetros = altura / 100; // Convertendo altura para metros
+    const alturaEmMetros = altura / 100; // Convertendo altura para metro
     const imc = peso / (alturaEmMetros * alturaEmMetros);
-    return imc.toFixed(2); // Retorna o IMC com duas casas decimais
+    return imc.toFixed(2); 
   };
 
   const imc = calculateIMC(peso, altura);
