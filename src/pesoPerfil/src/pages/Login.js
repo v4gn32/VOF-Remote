@@ -1,14 +1,15 @@
+// src/pages/Login.js
 import { useNavigation } from '@react-navigation/native';
 import React, { useState } from 'react';
 import {
-    Alert,
-    Image,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  Alert,
+  Image,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { getDb } from '../database';
@@ -27,7 +28,7 @@ const Login = () => {
     const { email, password } = form;
 
     if (!email || !password) {
-      Alert.alert('Erro', 'Por favor, preencha todos os campos.');
+      Alert.alert('Erro', 'Todos os campos são obrigatórios.');
       return;
     }
 
@@ -41,9 +42,8 @@ const Login = () => {
             if (user && user.Nome) {
               Alert.alert('Sucesso', `Bem-vindo, ${user.Nome}!`);
               navigation.navigate('Perfil', { userId: user.UsuarioID });
-              setForm({ email: '', password: '' }); // Limpar campos após login
             } else {
-              Alert.alert('Erro', 'Usuário não encontrado.');
+              Alert.alert('Erro', 'Nome do usuário não encontrado.');
             }
           } else {
             Alert.alert('Erro', 'Email ou senha incorretos.');
@@ -109,7 +109,7 @@ const Login = () => {
             </TouchableOpacity>
 
             <TouchableOpacity onPress={navigateToRegister}>
-              <Text style={styles.formFooter}>Não possui uma conta? Cadastre-se</Text>
+              <Text style={styles.formFooter}>Não possuo uma conta</Text>
             </TouchableOpacity>
           </View>
         </View>

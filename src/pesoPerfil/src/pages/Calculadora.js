@@ -1,3 +1,4 @@
+// src/pages/Calculadora.js
 import { useNavigation, useRoute } from '@react-navigation/native';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -7,31 +8,25 @@ const Calculadora = () => {
   const navigation = useNavigation();
   const { altura, peso } = route.params;
 
-
   const calculateIMC = (peso, altura) => {
-    const alturaEmMetros = altura / 100;
+    const alturaEmMetros = altura / 100; // Convertendo altura para metros
     const imc = peso / (alturaEmMetros * alturaEmMetros);
-    return imc.toFixed(2); 
+    return imc.toFixed(2); // Retorna o IMC com duas casas decimais
   };
 
- 
+  const imc = calculateIMC(peso, altura);
+
   const getIMCClassification = (imc) => {
     if (imc < 18.5) return 'Abaixo do peso';
     if (imc >= 18.5 && imc < 24.9) return 'Peso normal';
     if (imc >= 25 && imc < 29.9) return 'Sobrepeso';
     if (imc >= 30 && imc < 34.9) return 'Obesidade grau I';
     if (imc >= 35 && imc < 39.9) return 'Obesidade grau II';
-    return 'Obesidade grau III';
+    if (imc >= 40) return 'Obesidade grau III';
+    return 'Classificação não disponível';
   };
 
- 
-  const imc = calculateIMC(parseFloat(peso), parseFloat(altura));
   const imcClassification = getIMCClassification(imc);
-
-
-  const handleGoBack = () => {
-    navigation.goBack();
-  };
 
   return (
     <View style={styles.container}>
@@ -40,7 +35,7 @@ const Calculadora = () => {
       <Text style={styles.classification}>Classificação: {imcClassification}</Text>
       <TouchableOpacity
         style={styles.button}
-        onPress={handleGoBack}
+        onPress={() => navigation.goBack()}
         accessibilityLabel="Voltar"
         accessibilityHint="Pressione para voltar à tela anterior"
       >
