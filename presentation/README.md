@@ -1,5 +1,6 @@
 # Apresentação da Solução
 
+<<<<<<< HEAD
 ---
 
 ## Slide 1: Título
@@ -98,6 +99,13 @@ Desenvolver uma solução completa para gerenciamento de peso, cálculo de IMC e
 ### Vídeo da Solução
 
 **Demonstração do Sistema Peso Perfil**
+=======
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-2024-1-e3-proj-mov-t5-pmv-ads-2024-1-e3-proj-pesoperfil/assets/111026383/6a537cb8-fce6-49fc-bbdd-7c9065751673
+>>>>>>> c08e46a0483800e049e9c22631a6f2531c9e8dfb
 
 
 
