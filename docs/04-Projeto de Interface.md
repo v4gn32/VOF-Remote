@@ -1,130 +1,71 @@
 # Projeto de Interface
 
-Para criarmos o projeto de interface para o sistema "Peso Perfil", vamos delinear a visão geral da interação do usuário por meio das telas do sistema e um protótipo interativo dos wireframes. Abaixo está a descrição detalhada das telas e suas funcionalidades.
-
-## Diagrama de Fluxo
-
-<img src="/docs/img/Projeto de Interfaces.jpg">
+## Diagrama de Caso de Uso 
+![Diagrama de Fluxo](/assets/Diagrama-de-Fluxo.png)
 
 ## 1. Tela de Início
+A tela de início serve como ponto de entrada para o VOF-Remote, oferecendo opções para login, cadastro e acesso a funcionalidades básicas.
 
-**Objetivo:**
-Recepcionar o usuário e direcioná-lo para login ou cadastro.
-
-**Componentes:**
-- Logo do aplicativo
-- Botões "Entrar" e "Cadastrar"
-- Texto de boas-vindas
-
-**Wireframe:**
-
-<div align="left">
-<img src="/docs/img/00 - Inicio.png" width=30% height=30%>
-</div>
+### Elementos:
+- Logo do sistema.
+- Botão de Login.
+- Botão de Cadastro.
+- Links para telas de novidades e favoritos.
 
 ## 2. Tela de Login
+A tela de login permite que usuários existentes entrem no sistema utilizando suas credenciais.
 
-**Objetivo:**
-Permitir que o usuário existente faça login no sistema.
-
-**Componentes:**
-- Campos para Email e Senha
-- Botão "Acessar"
-- Link para a tela de cadastro
-
-**Wireframe:**
-
-<div align="left">
-<img src="/docs/img/01 - Login.png" width=30% height=30%>
-</div>
+### Elementos:
+- Campo para e-mail.
+- Campo para senha.
+- Botão de Login.
+- Link para recuperação de senha.
+- Link para cadastro.
 
 ## 3. Tela de Cadastro
+A tela de cadastro permite que novos usuários se registrem no sistema.
 
-**Objetivo:**
-Permitir que novos usuários se cadastrem no sistema.
+### Elementos:
+- Campo para nome completo.
+- Campo para e-mail.
+- Campo para senha.
+- Campo para confirmação de senha.
+- Botão de Cadastro.
+- Link para a tela de login.
 
-**Componentes:**
-- Campos para Nome, Email e Senha
-- Opção de Gênero
-- Campo para data de nascimento
-- Campo para inserir altura
-- Botão "Registrar"
+## 4. Tela Novidades
+A tela de novidades apresenta as últimas atualizações e notícias relevantes sobre o VOF-Remote.
 
-**Wireframe:**
+### Elementos:
+- Lista de novidades com título, data e resumo.
+- Links para detalhes das novidades.
 
-<div align="left">
-<img src="/docs/img/02 - Cadastro.png" width=30% height=30%>
-</div>
+## 5. Tela Favoritos
+A tela de favoritos permite que usuários acessem rapidamente os dispositivos que marcaram como favoritos.
 
-## 4. Tela Home
+### Elementos:
+- Lista de dispositivos favoritos com nome e status.
+- Botão para acessar o dispositivo.
+- Opção para remover dos favoritos.
 
-**Objetivo:**
-Página principal após o login, apresentando o resumo do perfil e funcionalidades principais.
+## 6. Tela de Sessões Recentes
+A tela de sessões recentes exibe as últimas sessões de acesso remoto realizadas pelo usuário.
 
-**Componentes:**
-- Boas-vindas ao usuário
-- Botões para "Pesagem", "Medição", "Editar Perfil" e "Calculadora de IMC"
-- Resumo do perfil (nome, último peso, último IMC)
+### Elementos:
+- Lista de sessões com data, hora e dispositivo acessado.
+- Opção para repetir a sessão.
 
-**Wireframe:**
-<div align="left">
-<img src="/docs/img/03 - Home.png" width=30% height=30%>
-</div>
+## 7. Tela de Encontrados
+A tela de encontrados exibe os dispositivos disponíveis para conexão que foram encontrados na rede.
 
-## 5. Tela com Pesagem e Editar e Alterar Peso
+### Elementos:
+- Lista de dispositivos encontrados com nome e status.
+- Botão para conectar ao dispositivo.
 
-**Objetivo:**
-Permitir que o usuário registre um novo peso ou edite pesos anteriores.
+## 8. Tela de Anotações
+A tela de anotações permite que os usuários façam anotações durante suas sessões de acesso remoto.
 
-**Componentes:**
-- Campo para inserir o novo peso
-- Lista de pesagens anteriores com opção de editar
-- Botão "Salvar"
-
-**Wireframe:**
-<div align="left">
-<img src="/docs/img/05 - Alterar ou Excluir Peso.png" width=30% height=30%>
-</div>
-
-## 6. Tela de Medição
-
-**Objetivo:**
-Permitir que o usuário consultar seus registros de medidas IMCs.
-
-**Componentes:**
-- Campos para peso aferido e data
-
-**Wireframe:**
-<div align="left">
-<img src="/docs/img/06 - Medição.png" width=30% height=30%>
-</div>
-
-## 7. Tela de Editar Perfil
-
-**Objetivo:**
-Permitir que o usuário edite informações pessoais.
-
-**Componentes:**
-- Campos para gênero, data de nascimento, altura e meta peso
-- Botão "Salvar"
-
-**Wireframe:**
-<div align="left">
-<img src="/docs/img/07 - Edição de Perfil.png" width=30% height=30%>
-</div>
-
-## 8. Calculadora de IMC
-
-**Objetivo:**
-Permitir que o usuário calcule o IMC com base em seu peso e altura.
-
-**Componentes:**
-- Campos para peso e altura
-- Botão "Calcular"
-- Resultado do IMC e classificação
-
-**Wireframe:**
-<div align="left">
-<img src="/docs/img/08 - Calculadora IMC.png" width=30% height=30%>
-</div>
-
+### Elementos:
+- Campo de texto para anotações.
+- Botão para salvar anotações.
+- Lista de anotações salvas com data e hora.

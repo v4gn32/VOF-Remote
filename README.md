@@ -1,28 +1,24 @@
-# Peso Perfil - Aplicativo de Monitoramento de Índice de Massa Corporal
+# VOF - Remote
 
-- `Analise e Desenvolvimento de Sistemas 2024`
+### Descrição do Sistema VOF-Remote:
 
-- `Projeto - Turma 5`
+VOF-Remote é um sistema de acesso remoto projetado para permitir que usuários acessem e controlem dispositivos de forma remota de qualquer lugar do mundo. Este sistema oferece uma solução segura e eficiente para gerenciar e interagir com computadores, servidores ou outros dispositivos conectados à internet, possibilitando:
 
-- `Eixo 3`
+## Desenvolvedor
 
-O projeto "Peso Perfil" se propõe a desenvolver um aplicativo móvel simples e intuitivo, utilizando React Native, que possibilitará aos usuários calcular seu Índice de Massa Corporal (IMC) e acessar informações detalhadas sobre sua saúde e bem-estar. Através de uma interface clara e amigável, os usuários poderão inserir seu peso e altura, e o aplicativo fornecerá o cálculo do IMC juntamente com uma interpretação que categoriza o resultado em diferentes faixas, desde abaixo do peso até obesidade. Além disso, o aplicativo oferecerá orientações e alertas de saúde personalizados, com base na categoria de IMC, inspirando os usuários a manter ou buscar um estilo de vida saudável.
-
-## Integrantes
-
-* Adriel Agnes Costa Bosco
-* Evandro Kumasaka
-* Lucas Melo de Carvalho
-* Lucas Oliveira Gonçalves
 * Vagner de Oliveira Florencio
-
-## Orientador
-
-* Cristiano de Macêdo Neto
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+1. Acesso Remoto Seguro: Permitir que usuários autorizados se conectem aos seus dispositivos de forma segura, utilizando criptografia robusta para proteger os dados transmitidos.
+
+2. Controle Completo: Capacidade de visualizar, controlar e interagir com a área de trabalho e os recursos do dispositivo remoto em tempo real.
+
+3. Gerenciamento de Acessos: Administração de permissões de acesso para diferentes usuários, garantindo segurança e controle sobre quem pode acessar quais dispositivos.
+
+4. Monitoramento em Tempo Real: Visualização de informações de desempenho e status dos dispositivos remotos, facilitando o diagnóstico e a manutenção.
+
+5. Compatibilidade Multiplataforma: Suporte para diferentes sistemas operacionais e dispositivos, incluindo Windows, macOS, Linux e dispositivos móveis.
 
 # Documentação
 
