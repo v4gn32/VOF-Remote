@@ -5,6 +5,7 @@
 
 ## Modelo ER
 ![Modelo ER](link_para_modelo_er)
+Pesquisar e fazer o modelo
 
 ## Esquema Relacional
 
