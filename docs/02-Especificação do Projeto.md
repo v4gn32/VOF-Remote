@@ -3,7 +3,7 @@
 ## Personas
 
 ### Persona 1
-![Foto](link_para_foto_1)
+![Foto](/assets/Joao-Silva.jpg)
 **Nome:** João Silva  
 **Idade:** 35  
 **Profissão:** Administrador de Redes  
@@ -11,7 +11,7 @@
 **Soluções Desejadas:** Acesso seguro e eficiente a múltiplos servidores com controle completo.
 
 ### Persona 2
-![Foto](link_para_foto_2)
+![Foto](/assets/Maria-Souza.jpg)
 **Nome:** Maria Souza  
 **Idade:** 28  
 **Profissão:** Desenvolvedora de Software  
